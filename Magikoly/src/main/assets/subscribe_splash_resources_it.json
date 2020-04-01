@@ -1,0 +1,147 @@
+{
+  "datas": [
+    {
+      "moduleId": 1,
+      "icon_name": "1 MESE: $ 27,99",
+      "icon_desc": "Prova gratuita di 3 giorni, annullamento in qualsiasi momento.",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 2,
+      "icon_name": "3 giorni di prova gratuita",
+      "icon_desc": "Abbonamento annuale per $ 8,07/MESE, annulla in qualsiasi momento.",
+      "banner": "",
+      "title": "Aggiungi magia al tuo selfie",
+      "name": "",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno o 27,99/MESE. Provando gratuitamente, hai accettato la nostra #Informativa sulla privacy#,^Condizioni^.",
+      "button_name": "Prova gratis"
+    },
+    {
+      "moduleId": 6,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Le caratteristiche Premium di seguito sono <b>Gratuite da provare</b> ; Puoi <b>annullare in qualsiasi momento</b> ",
+      "name": "Uscire dalla prova gratuita?",
+      "description": "Incredibile\nmacchina fotografica di invecchiamento#Scambio di\ngenere magico#Analisi di\netnicità illimitata#Miglior\neditor di foto#Tecnologia\navanzata#Segnalazione\naccurata",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Prova gratis"
+    },
+    {
+      "moduleId": 3,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Incontra il tuo futuro ",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Controlla il mio risultato"
+    },
+    {
+      "moduleId": 4,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Scopri un altro tu ",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Controlla il mio risultato"
+    },
+    {
+      "moduleId": 5,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Scopri la tua misteriosa etnia",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Controlla il mio risultato"
+    },
+    {
+      "moduleId": 7,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Vedi se il tuo bel bambino ti somiglia",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Controlla il mio risultato"
+    },
+    {
+      "moduleId": 9,
+      "icon_name": "3 giorni di prova gratuita",
+      "icon_desc": "Abbonamento annuale per $ 8,07/MESE, annulla in qualsiasi momento.",
+      "banner": "",
+      "title": "Nessun addebito se annullato entro 3 giorni!",
+      "name": "Sblocca il risultato",
+      "description": "Invecchia il viso\nBambino futuro composito\nScambio di genere magico\nAnalisi etnia accurata\nAbbellisci il tuo selfie",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno o 27,99/MESE. Provando gratuitamente, hai accettato la nostra #Informativa sulla privacy#,^Condizioni^.",
+      "button_name": "Prova gratis"
+    },
+    {
+      "moduleId": 8,
+      "icon_name": "1 MESE: $ 27,99",
+      "icon_desc": "Prova gratuita di 3 giorni, annullamento in qualsiasi momento.",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 10,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Rimuovi gli annunci e sblocca tutte le funzioni!",
+      "name": "Passa a Ad-free",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Inizia la prova gratuita di 3 giorni"
+    },
+    {
+      "moduleId": 11,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Scopri la tua dolce versione",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Controlla il mio risultato"
+    },
+    {
+      "moduleId": 13,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Trasforma una normale foto in una straordinaria opera d'arte",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Il mio dipinto"
+    },
+    {
+      "moduleId": 15,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Scopri lo spirito animale in te",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulla in qualsiasi momento.  Si estenderà automaticamente a $ 96,88/anno.",
+      "button_name": "Controlla il mio risultato"
+    }
+  ]
+}

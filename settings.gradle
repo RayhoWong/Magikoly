@@ -1,0 +1,2 @@
+include ':Magikoly', ':MagikolyLib', ':beautyfacelib', ':beautyfacesample',":stasm"
+project(":MagikolyLib").projectDir = new File("LibRelease")

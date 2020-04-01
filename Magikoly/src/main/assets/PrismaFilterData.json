@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "isLocal": true,
+      "tag": "femme",
+      "name": "cartoon",
+      "isVIP": true,
+      "url": "femme.pie",
+      "sort": 1
+    },
+    {
+      "isLocal": true,
+      "tag": "alpaca",
+      "name": "tint",
+      "isVIP": true,
+      "url": "alpaca.pie",
+      "sort": 2
+    },
+    {
+      "isLocal": true,
+      "tag": "curly_hair",
+      "name": "sketch",
+      "isVIP": true,
+      "url": "curly_hair.pie",
+      "sort": 3
+    },
+    {
+      "isLocal": false,
+      "tag": "dragon",
+      "name": "canvas",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405396011595196509.zip",
+      "sort": 4
+    },
+    {
+      "isLocal": false,
+      "tag": "picnic",
+      "name": "pop",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/15640536763858441348.zip",
+      "sort": 5
+    },
+    {
+      "isLocal": false,
+      "tag": "marmalade",
+      "name": "marmalade",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405376071416576911.zip",
+      "sort": 6
+    },
+    {
+      "isLocal": false,
+      "tag": "seagull",
+      "name": "seagull",
+      "isVIP": false,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/15640538537095297592.zip",
+      "sort": 7
+    },
+    {
+      "isLocal": false,
+      "tag": "octopus",
+      "name": "print",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405430394649808756.zip",
+      "sort": 8
+    },
+    {
+      "isLocal": false,
+      "tag": "gothic",
+      "name": "gothic",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405409775337483530.zip",
+      "sort": 9
+    },
+    {
+      "isLocal": false,
+      "tag": "hot_tea",
+      "name": "fervor",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405416350646695656.zip",
+      "sort": 10
+    },
+    {
+      "isLocal": false,
+      "tag": "clean_line",
+      "name": "streak",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405423184822894171.zip",
+      "sort": 11
+    },
+    {
+      "isLocal": false,
+      "tag": "cowboy",
+      "name": "cowboy",
+      "isVIP": false,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405402884139745523.zip",
+      "sort": 12
+    },
+    {
+      "isLocal": false,
+      "tag": "old_fashioned",
+      "name": "fade",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405436194495301282.zip",
+      "sort": 13
+    },
+    {
+      "isLocal": false,
+      "tag": "jellyfish",
+      "name": "jellyfish",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405444176038906528.zip",
+      "sort": 14
+    },
+    {
+      "isLocal": false,
+      "tag": "tokyo",
+      "name": "tokyo",
+      "isVIP": true,
+      "url": "http://resource.cdn.bbcget.com/soft/launcherzstoremanage/2019072519/156405452694122433373.zip",
+      "sort": 15
+    }
+  ]
+}

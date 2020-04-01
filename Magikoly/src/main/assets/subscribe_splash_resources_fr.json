@@ -1,0 +1,147 @@
+{
+  "datas": [
+    {
+      "moduleId": 1,
+      "icon_name": "1 mois : 27,99 $",
+      "icon_desc": "Essai gratuit de 3 jours, annulez à tout moment",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 2,
+      "icon_name": "Essai gratuit de 3 jours",
+      "icon_desc": "Abonnement annuel pour 8,07 $/mois, annulez à tout moment.",
+      "banner": "",
+      "title": "Ajoutez de la magie à votre selfie",
+      "name": "",
+      "description": "",
+      "more_name": "Annulez à tout moment.  Portera automatiquement à 96,88 $ / an ou 27,99 $ / mois. En essayant gratuitement, vous avez accepté notre politique de confidentialité #, ^ Termes et conditions ^.",
+      "button_name": "Essayez gratuitement"
+    },
+    {
+      "moduleId": 6,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Les fonctionnalités premium ci-dessous sont <b>gratuites à essayer</b>. Vous pouvez <b>annuler à tout moment</b>.",
+      "name": "Voulez-vous vraiment quitter l'ESSAI GRATUIT ?",
+      "description": "Caméra de\nvieillissement fabuleuse#Échange de\ngenre magique#Analyse ethnique\nillimitée#Meilleur\néditeur de photos#Technologie\navancée#Rapport\nprécis",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Essayez gratuitement"
+    },
+    {
+      "moduleId": 3,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Rencontrez votre futur",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Vérifier Mon Résultat"
+    },
+    {
+      "moduleId": 4,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Découvrez un autre vous",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Vérifier Mon Résultat"
+    },
+    {
+      "moduleId": 5,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Détectez votre ethnicité mystérieuse",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Vérifier Mon Résultat"
+    },
+    {
+      "moduleId": 7,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Découvrez si votre beau bébé vous ressemble",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Vérifier Mon Résultat"
+    },
+    {
+      "moduleId": 9,
+      "icon_name": "Essai gratuit de 3 jours",
+      "icon_desc": "Abonnement annuel pour 8,07 $/mois, annulez à tout moment.",
+      "banner": "",
+      "title": "Aucun frais si annulé dans les 3 jours!",
+      "name": "Déverrouillez votre résultat",
+      "description": "Vieillir votre visage\nPortrait de votre futur bébé\nÉchange de genre magique\nAnalyse ethnique précise\nEmbellissez votre selfie",
+      "more_name": "Annulez à tout moment.  Portera automatiquement à 96,88 $ / an ou 27,99 $ / mois. En essayant gratuitement, vous avez accepté notre politique de confidentialité #, ^ Termes et conditions ^.",
+      "button_name": "Essayez gratuitement"
+    },
+    {
+      "moduleId": 8,
+      "icon_name": "1 mois : 27,99 $",
+      "icon_desc": "Essai gratuit de 3 jours, annulez à tout moment",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 10,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Retire les pubs & active toutes les options!",
+      "name": "Passer au mode 0 pubs",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Essai gratuit de 3 jours"
+    },
+    {
+      "moduleId": 11,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Regardez votre jolie version bébé",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Vérifier Mon Résultat"
+    },
+    {
+      "moduleId": 13,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Changez une photo normale en divine œuvre d'art",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Obtenir mon tableau"
+    },
+    {
+      "moduleId": 15,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Explorez votre animal spirituel",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Annulez à tout moment.  S'étendra automatiquement à 96,88 $/an.",
+      "button_name": "Vérifier Mon Résultat"
+    }
+  ]
+}

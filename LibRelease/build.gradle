@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion var.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion var.minSdkVersion
+        targetSdkVersion var.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api name: 'statistics-cn-release-v1.01', ext: 'aar'
+    api name: 'BuyChannelSdk-trunk-v1.6-r190545-AF-4.10.1', ext: 'aar'
+    api name: 'ProcessDaemonSdk-trunk-v1.7-r193940', ext: 'aar'
+    api name: 'CommerceAdSdk-V4.8-release-svn193487', ext: 'aar'
+}

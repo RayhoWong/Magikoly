@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name">神奇相機</string>
+    <string name="splash_resources_name">subscribe_splash_resources_tw.json</string>
+
+    <!--种族列表-->
+    <string name="function_ethnicity_white">白人</string>
+    <string name="function_ethnicity_asian">亞洲人</string>
+    <string name="function_ethnicity_spanish">中東人</string>
+    <string name="function_ethnicity_latino">拉美人</string>
+    <string name="function_ethnicity_black">黑人</string>
+    <string name="function_ethnicity_other">其他</string>
+
+
+    <!--评分弹框-->
+    <string name="function_rate_text">覺得Magikoly怎麼樣?</string>
+    <string name="rate_five_star_toast_text">五星評價是我們繼續前進的動力哦 XD</string>
+    <string name="dialog_rate_ask_title">實在很抱歉…</string>
+    <string name="dialog_rate_ask_content">能給我們一些建議嗎？</string>
+    <string name="cancel">取消</string>
+    <string name="give_feedback">反饋問題</string>
+
+    <string name="takephoto_desc_ethnicity">請拍照並使你的正面處於取景框中央</string>
+
+
+    <string name="face_detect_fail">面部識別失敗</string>
+    <string name="face_detect_fail_tips">請拍攝或選擇帶有人臉的照片</string>
+    <string name="unclear_face">面部不清晰</string>
+    <string name="network_error">網路錯誤</string>
+    <string name="network_error_tips">請確認網路狀態後重試</string>
+    <string name="unknown_error">未知錯誤</string>
+    <string name="unknown_error_tips">很抱歉,發生了未知錯誤,請重試</string>
+
+
+    <string name="get_my_result">查看我的結果</string>
+
+
+    <string name="save_to_gallery">保存到相冊</string>
+    <string name="save_report_success">圖片已保存到相冊</string>
+    <string name="setting_item_upgrade">升級到完整版</string>
+    <string name="setting_item_feedback">意見回饋</string>
+    <string name="setting_item_service_agreement">使用者協定</string>
+    <string name="setting_item_privacy_policy">私隱政策</string>
+    <string name="subscribe_close_bottom_text">不用，謝謝。</string>
+    <string name="subscribe_close_bottom_long_text">我不想要這個優惠，不想要體驗老化相機、寶寶預測和其他高級功能。</string>
+    <string name="subscribe_gp_connection_error">無法連接谷歌商店，請稍後再試。</string>
+    <string name="subscribe_network_error">無網絡，請檢查網絡環境後重試。</string>
+    <string name="save_report_failed">圖片保存失敗，請稍後再試</string>
+
+
+    <string name="ok">Ok</string>
+
+
+    <string name="permission_tip_write">我們需要你的WRITE_EXTERNAL_STORAGE許可權來把圖片保存到你的相冊裡哦~</string>
+    <string name="permission_tip_write_never">我們需要你的WRITE_EXTERNAL_STORAGE許可權來把你的照片展示在這裡哦~你可以在系統設置裡打開它~</string>
+    <string name="permission_tip_write_save_never">我們需要你的WRITE_EXTERNAL_STORAGE許可權來把圖片保存到你的相冊裡哦~你可以在系統設置裡打開它~</string>
+    <string name="permission_tip_write_never_album">我們需要你的WRITE_EXTERNAL_STORAGE許可權來把你的本地照片展示在這裡哦~你可以在系統設置裡打開它~</string>
+    <string name="feedback_email_hint">電子信箱</string>
+    <string name="feedback_detail_hint">請詳細描述問題~</string>
+    <string name="feedback_submit_success">你的反饋對我們非常重要，我們會盡快跟進。</string>
+    <string name="feedback_email_error">啊哦，請輸入正確的信箱位址~</string>
+    <string name="feedback_email_detail_empty_error">告訴我們你遇到的問題吧。</string>
+    <string name="feedback_uploading">上傳中…</string>
+    <string name="feedback_submit_fail">啊哦，提交錯誤，請稍後再試</string>
+    <string name="feedback_submit">提交</string>
+
+    <string name="rate_before_google_play">有你真的太好了！</string>
+    <string name="rate_before_google_play_2">感謝你的評價！</string>
+
+    <string name="error_code_1">錯誤代碼：01</string>
+    <string name="error_code_2">錯誤代碼：02</string>
+    <string name="error_code_3">錯誤代碼：03</string>
+    <string name="error_code_4">錯誤代碼：04</string>
+    <string name="identification_error">識別錯誤</string>
+    <string name="layout_purchase_trial_count_text">試用版每天的免費分析機會只有10次,請升級到完整版或者明天再試~</string>
+    <string name="layout_purchase_watch_video">觀看視頻</string>
+    <string name="layout_purchase_one_time_access">以獲取單次使用權</string>
+    <string name="layout_purchase_upgrade">升級以解鎖</string>
+    <string name="layout_purchase_upgrade_full_version">請升級到完整版以解鎖高級功能</string>
+    <string name="discovery_online_result">線上結果</string>
+    <string name="discovery_poplur_search">熱門搜索</string>
+    <string name="discovery_search_hint">輸入人名可線上搜索</string>
+    <string name="take_photo">拍照</string>
+    <string name="faces">人物</string>
+    <string name="album">相冊</string>
+    <string name="discovery">明星</string>
+    <string name="no_face_photo">設備裡沒有人物照片哦，\n現在自拍一張吧</string>
+    <string name="searching_for_faces">正在掃描人像照片</string>
+    <string name="search_complete">掃描完畢</string>
+    <string name="takephoto_local">相冊</string>
+    <string name="takephoto_explore">探索</string>
+    <string name="face_album_choose_image">選擇人物照片</string>
+    <string name="string_photos">張照片</string>
+    <string name="no_photos">設備裡沒有照片哦,</string>
+    <string name="no_permission_album">我們需要你的WRITE_EXTERNAL_STORAGE許可權來把你的本地照片展示在這裡哦~</string>
+    <string name="loading">載入中</string>
+    <string name="multi_face_desc">識別到多個面部，\n請選擇一個</string>
+    <string name="dialog_watch_video_title">免費使用機會</string>
+    <string name="dialog_watch_video_desc">觀看一個廣告視頻可以得到一次高級功能的免費使用機會，現在立刻播放看看？</string>
+    <string name="aging_camera">老化快門</string>
+    <string name="gender_swap">性別轉換</string>
+    <string name="ethnicity_analy">種族分析</string>
+    <string name="confirm_exit">有圖片未保存，是否確定不保存直接退出?</string>
+    <string name="permission_tip_write_deny">我們需要你的WRITE_EXTERNAL_STORAGE許可權來把你的照片展示在這裡哦~</string>
+    <string name="no_photo_btn_album">現在自拍一張吧</string>
+    <string name="power_by_bing">Power by Bing</string>
+
+    <string name="camera_error_tip">打開相機時發生錯誤</string>
+    <string name="album_take_photo">現在自拍一張吧</string>
+    <string name="error">出錯</string>
+    <string name="rate_before_google_play_3">麻煩到Google Play內給我們評分吧 :)</string>
+    <string name="feedback_email_empty">啊哦，記得填寫郵箱，以便我們更好地追蹤問題。</string>
+    <string name="poster_result_title_aging">50年后的我</string>
+    <string name="poster_result_desc_aging">揭示未來的你
+Google Play內搜索Magikoly</string>
+    <string name="poster_result_title_gender_male">相反性别的我</string>
+    <string name="poster_result_desc_gender_male">探索另一個性別的自己
+Google Play內搜索Magikoly</string>
+    <string name="poster_result_title_gender_female">相反性别的我</string>
+    <string name="poster_result_desc_gender_female">探索另一個性別的自己
+Google Play內搜索Magikoly</string>
+    <string name="poster_result_title_ethnicity">我的基因組成</string>
+    <string name="poster_result_desc_ethnicity">解碼基因中蘊含的秘密
+Google Play內搜索Magikoly</string>
+    <string name="permission_tip_camera_never">我們需要你的IMAGE_CAPTURE許可權來幫你拍照哦~你可以在系統設置裡打開它~</string>
+
+    <string name="image_not_found_error">Error 404</string>
+    <string name="image_not_found_error_tips">找不到該圖片</string>
+
+    <string name="loading_for_aging_tip">你的臉正在變老</string>
+    <string name="loading_for_gender_tip">正在切換性別</string>
+    <string name="loading_for_ethnicity_tip">正在分析種族資訊</string>
+    <string name="loading_for_baby_tip">正在合成你的寶寶</string>
+    <string name="loading_for_beauty_tip">正在美化你的臉</string>
+    <string name="effects">特效</string>
+    <string name="beauty">美顏</string>
+    <string name="analysis">分析</string>
+    <string name="baby_prediction">兒女合成</string>
+    <string name="fragment_baby_name_dad">爸爸</string>
+    <string name="fragment_baby_name_mom">媽媽</string>
+    <string name="fragment_baby_title_male">我們的兒子</string>
+    <string name="fragment_baby_title_female">我們的女兒</string>
+    <string name="inner_pick_title">拍攝或選擇一張你伴侶的照片</string>
+    <string name="inner_pick_take_photo">拍摄照片</string>
+    <string name="inner_pick_album">從相冊上傳</string>
+    <string name="inner_pick_search_online">線上搜索明星照片</string>
+    <string name="baby_mother_gender_fail">不是女性照片</string>
+    <string name="baby_mother_gender_fail_desc">請重新拍照或上傳照片,使女性的正面處於取景器中央</string>
+    <string name="baby_father_gender_fail">不是男性照片</string>
+    <string name="baby_father_gender_fail_desc">請重新拍照或上傳照片,使男性的正面處於取景器中央</string>
+    <string name="camera_launching">相機啟動中…</string>
+
+    <string name="subscribe_back_toast">再次點擊返回鍵時將退出應用</string>
+    <string name="discovery_guide_popup_text">在這裡可以\n找到明星的照片~</string>
+    <string name="premium">高級會員</string>
+
+    <string name="rate_five_star_title">免費解鎖報告</string>
+    <string name="rate_five_star_content">在Google Play里評5星\n即可獲得所有功能1天免費使用權！</string>
+    <string name="rate_five_star_btn">去評5星</string>
+    <string name="rate_five_star_unlock_up">去評5星</string>
+    <string name="rate_five_star_unlock_down">即可獲得1天免費權限</string>
+    <string name="rate_free_toast_text">只差一步，免費使用權即刻到手！</string>
+
+    <string name="rate_five_star_title_v2">免費使用機會</string>
+    <string name="rate_five_star_content_v2">在谷歌PlayStore<b>給我們評分</b> 可以獲得 <b>一天內免費使用</b> 高級功能的機會。</string>
+    <string name="rate_five_star_btn_v2">去評分</string>
+    <string name="rate_five_star_unlock_up_v2">對應用評分</string>
+    <string name="rate_five_star_unlock_down_v2">以獲取一天使用權</string>
+    <string name="now">現在</string>
+    <string name="latest_year">50年後</string>
+    <string name="loading_for_child_tip">你的臉正在變年輕…</string>
+    <string name="child_mirror">童顏濾鏡</string>
+    <string name="big_eyes">大眼</string>
+    <string name="face_shape">瘦臉</string>
+    <string name="whitening">亮膚</string>
+    <string name="smoother">光滑</string>
+    <string name="loading_for_art_filter_tip">正在應用濾鏡…</string>
+    <string name="loading_seconds">(大約需要2-3秒)</string>
+    <string name="purchase_backhome_title">請拍照/上傳圖片</string>
+    <string name="purchase_backhome_subtitle">點擊後回到首頁</string>
+    <string name="filter">濾鏡</string>
+    <string name="art_filter">漫畫濾鏡</string>
+    <string name="five_more_free_accesses">5次免費使用機會</string>
+    <string name="five_time_free_chance_content">驚喜機會！現在觀看一個廣告視頻可以得到5次高級功能的免費使用權，立刻播放看看？</string>
+    <string name="quit">放棄</string>
+    <string name="got_five_time_free_access">獲得5次免費機會！</string>
+    <string name="main_banner_title_1">驚人的\n老化快門</string>
+    <string name="main_banner_title_2">精彩的\n卡通效果</string>
+    <string name="main_banner_title_3">有趣的\n童顏濾鏡</string>
+    <string name="main_banner_title_4">完美的\n美顏相機</string>
+    <string name="main_banner_title_5">徹底\n無廣告</string>
+    <string name="main_banner_title_6">令人讚嘆的\n漫畫藝術</string>
+    <string name="main_banner_title_7">神奇的\n1秒素描</string>
+    <string name="main_banner_title_8">優雅的\n精美油畫</string>
+    <string name="main_banner_title_9">更多\n酷炫效果</string>
+    <string name="permission_tip_title_upload_img">你拍攝或選擇的每一張用作分析的圖片都需要上傳至雲端來進行分析和處理哦，處理完畢後會馬上將其刪除~</string>
+    <string name="yes_leaving">直接退出</string>
+    <string name="stay_here">先不退出</string>
+    <string name="loading_for_animal_tip">正在化身成某種動物…</string>
+    <string name="animal">動物屬性</string>
+    <string name="video">視頻</string>
+    <string name="gif">GIF</string>
+    <string name="exporting_video">正在導出視頻…</string>
+    <string name="exporting_gif">正在導出GIF…</string>
+    <string name="video_saved_to_gallery">視頻已保存到相冊</string>
+    <string name="gif_saved_to_gallery">GIF已保存到相冊</string>
+    <string name="exporting_gif_please_wait">正在導出GIF，請稍後~</string>
+    <string name="exporting_video_failed">視頻生成失敗，請稍後再試</string>
+    <string name="exporting_gif_failed">GIF生成失敗，請稍後再試</string>
+</resources>

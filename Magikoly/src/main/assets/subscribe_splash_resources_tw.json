@@ -1,0 +1,147 @@
+{
+  "datas": [
+    {
+      "moduleId": 1,
+      "icon_name": "每月：$27.99",
+      "icon_desc": "三天免費，隨時取消。",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 2,
+      "icon_name": "三天免費",
+      "icon_desc": "接下來每年續訂，每月僅需$8.07/月，支持隨時取消。",
+      "banner": "",
+      "title": "給您的自拍施加魔法",
+      "name": "",
+      "description": "",
+      "more_name": "支持隨時取消，自動續訂$96.88/年或$27.99/月。免費試用代表您已接受我們的#隱私政策#，^條款與協議^。",
+      "button_name": "免費試用"
+    },
+    {
+      "moduleId": 6,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "以下高級功能都可以<b>免費試用</b>，您可以<b>隨時取消</b>。",
+      "name": "真的要退出免費試用嗎？",
+      "description": "驚人的\n變老相機#神奇的\n性別互換#無限的\n種族分析#最好的\n相片編輯器#先進的\n科技#精準的\n報告",
+      "more_name": "支持隨時取消。接下來每年只需＄96.88續訂。",
+      "button_name": "免費試用"
+    },
+    {
+      "moduleId": 3,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "遇見未來的你",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "檢查我的報告"
+    },
+    {
+      "moduleId": 4,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "發現另一個你",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "檢查我的報告"
+    },
+    {
+      "moduleId": 5,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "檢測你的神祕種族",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "檢查我的報告"
+    },
+    {
+      "moduleId": 7,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "看看你們可愛的寶寶是不是更像你",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "檢查我的報告"
+    },
+    {
+      "moduleId": 9,
+      "icon_name": "三天免費",
+      "icon_desc": "接下來每年續訂，每月僅需$8.07/月，支持隨時取消。",
+      "banner": "",
+      "title": "三天內取消不會收費！",
+      "name": "解鎖您的報告",
+      "description": "老化您的臉部\n合成未來的寶寶\n神奇的性別互換\n精準的種族分析\n美顏您的自拍",
+      "more_name": "支持隨時取消，自動續訂$96.88/年或$27.99/月。免費試用代表您已接受我們的#隱私政策#，^條款與協議^。",
+      "button_name": "免費試用"
+    },
+    {
+      "moduleId": 8,
+      "icon_name": "每月：$27.99",
+      "icon_desc": "三天免費，隨時取消。",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 10,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "即刻去除廣告&解鎖所有功能！",
+      "name": "升級去廣告",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "開始三天免費試用"
+    },
+    {
+      "moduleId": 11,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "重現你可愛的嬰兒臉",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "檢查我的報告"
+    },
+    {
+      "moduleId": 13,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "將生活照轉換成驚豔的藝術畫作！",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "獲取我的藝術畫作"
+    },
+    {
+      "moduleId": 15,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "探索你內在的靈魂動物",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持隨時取消，接下來每年只需＄96.88續訂。",
+      "button_name": "檢查我的報告"
+    }
+  ]
+}

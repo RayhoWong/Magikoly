@@ -1,0 +1,101 @@
+<manifest package="com.glt.magikoly"
+          xmlns:android="http://schemas.android.com/apk/res/android" >
+    <application>
+        <!-- 守护进行SDK start -->
+        <!-- 任务服务，必须配置在主常驻进程里
+         com.cs.bd.daemon.JobSchedulerService
+         -->
+        <service
+            android:name="com.cs.bd.daemon.JobSchedulerService"
+            android:enabled="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <!-- 开机自动重启Receiver，进程名称要和被守护的进程一致
+         com.cs.bd.daemon.receiver.BootCompleteReceiver
+         -->
+        <receiver
+            android:name="com.cs.bd.daemon.receiver.BootCompleteReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <!-- 蓝牙状态变化 -->
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <!-- WIFI状态变化 -->
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+            </intent-filter>
+            <intent-filter android:priority="999">
+
+                <!-- 网络连接变化 -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <!-- 开机广播 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <!-- 解锁完成后会调用 -->
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <!-- 壁纸变化 -->
+                <action android:name="android.intent.action.WALLPAPER_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_RESTARTED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter android:priority="99999">
+
+                <!-- "*#*#开头 #*#*结尾"的拨号 -->
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+
+                <data android:scheme="android_secret_code"/>
+            </intent-filter>
+            <intent-filter android:priority="99999">
+
+                <!-- 电话呼出 -->
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+            <intent-filter>
+
+                <!-- SD卡挂载、卸载 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+
+                <data android:scheme="file"/>
+            </intent-filter>
+            <!--<intent-filter>
+
+                &lt;!&ndash; 公司内产品的广播监听 &ndash;&gt;
+                <action android:name="com.jiubang.alock.ACTION_LOCKER_ACCOUNT_CHANGE"/>
+                <action android:name="com.jiubang.alocker.theme.change"/>
+                <action android:name="com.jiubang.alocker.monitor.vip"/>
+                <action android:name="com.jiubang.alocker.refresh.vip"/>
+            </intent-filter>-->
+        </receiver>
+        <!-- 守护进行SDK end -->
+
+        <!-- 买量SDK start -->
+        <provider
+            android:name="com.cs.bd.buychannel.MPSharedPreferences"
+            android:authorities="${applicationId}.commerce.MPSharedPreferences"
+            android:exported="false"/>
+        <!-- 买量SDK end -->
+
+        <!-- 广告SDK start -->
+        <!-- 应用安装/卸载监听广播 -->
+        <receiver android:name="s.a.u.y.adwedjbkikwgyvzkmyspjp">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <!-- 广告SDK end -->
+
+        <!-- Commerce Utils start -->
+        <provider
+            android:name="t.v.a.b.r.o.culwcceyevgbxwceahvrrovsrxrwuos"
+            android:authorities="${applicationId}.commerce.multiprocessSharedPreferences"
+            android:exported="false"/>
+        <!-- Commerce Utils end -->
+    </application>
+</manifest>

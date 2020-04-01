@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black_mask">#80000000</color>
+    <color name="white">#ffffff</color>
+    <!--colors for PolygonChartView-->
+    <color name="polygon_lineColor">#66491e83</color>
+    <color name="polygon_netBackground">#1a6f67e3</color>
+    <color name="polygon_selectedAreaColorFrom">#5e6be1</color>
+    <color name="polygon_selectedAreaColorTo">#5e6be1</color>
+    <color name="polygon_selectedPointColor">#433691</color>
+    <color name="polygon_valueTextColor">#6817fa</color>
+    <color name="polygon_titleTextColor">#746d7b</color>
+    <color name="subscribe_close_bottom_color">#a7a7a7</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="dialog_btn_no_pressed">#1a6e6d70</color>
+    <color name="dialog_btn_yes_pressed">#1a6817fa</color>
+
+    <color name="tab_item_color_dark">#21004d</color>
+
+    <color name="setting_item_pressed">#1a6e6d70</color>
+
+    <color name="multi_face_text_desc">#21004d</color>
+
+    <color name="tab_unselect_text_color">#bfbfbf</color>
+    <color name="tab_selected_text_color">#6f67e3</color>
+
+    <color name="take_photo_fragment_cover">#ccffffff</color>
+    <color name="toolbar_title_dark_color">#433691</color>
+    <color name="beauty_text_color_normal">#A8A8A8</color>
+    <color name="beauty_text_color_select">#564EAE</color>
+</resources>

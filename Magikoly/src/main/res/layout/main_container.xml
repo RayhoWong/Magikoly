@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.glt.magikoly.blur.BlurLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:id="@+id/transition_layout"
+        layout="@layout/camera_transition_layout"
+        android:visibility="gone"/>
+    <include
+        android:id="@+id/progress_bar"
+        layout="@layout/global_progress_bar"
+        android:visibility="gone"/>
+</FrameLayout>

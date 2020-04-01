@@ -1,0 +1,147 @@
+{
+  "datas": [
+    {
+      "moduleId": 1,
+      "icon_name": "1 MÊS：27,99$",
+      "icon_desc": "Teste grátis de 3 dias, cancele quando quiser.",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 2,
+      "icon_name": "Teste grátis de 3 dias",
+      "icon_desc": "Subscrição anual por 8,07$/mês, cancele quando quiser.",
+      "banner": "",
+      "title": "Acrescente magia à sua selfie",
+      "name": "",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano ou 27,99$/mês. Ao testar gratuitamente, aceitou a nossa #Política de privacidade#, ^Termos e condições^.",
+      "button_name": "Teste gratuitamente"
+    },
+    {
+      "moduleId": 6,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "As funcionalidades premium abaixo <b>são de teste gratuito</b>. Pode <b>cancelar quando quiser</b>.",
+      "name": "Tem a certeza que pretende sair do teste grátis?",
+      "description": "Incrível câmara\nde envelhecimento#Troca de\ngénero mágica#Análises\nétnicas ilimitadas#O melhor\neditor de fotografias#Tecnologia\navançada#Relatórios\nprecisos",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Teste gratuitamente"
+    },
+    {
+      "moduleId": 3,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Conheça o seu futuro eu.",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Verificar o meu resultado"
+    },
+    {
+      "moduleId": 4,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Descubra outro eu",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Verificar o meu resultado"
+    },
+    {
+      "moduleId": 5,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Detecte sua etnia misteriosa",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Verificar o meu resultado"
+    },
+    {
+      "moduleId": 7,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Veja se o seu lindo bebé se parece mais consigo.",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Verificar o meu resultado"
+    },
+    {
+      "moduleId": 9,
+      "icon_name": "Teste grátis de 3 dias",
+      "icon_desc": "Subscrição anual por 8,07$/mês, cancele quando quiser.",
+      "banner": "",
+      "title": "Sem custos se cancelado em 3 dias!",
+      "name": "Desbloqueie o Seu Resultado",
+      "description": "A envelhecer o seu rosto\nComponha bebé futuro\nTroca de género mágico\nAnálise precisa de etnia\nEmbeleze o seu selfie",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano ou 27,99$/mês. Ao testar gratuitamente, aceitou a nossa #Política de privacidade#, ^Termos e condições^.",
+      "button_name": "Teste gratuitamente"
+    },
+    {
+      "moduleId": 8,
+      "icon_name": "1 MÊS：27,99$",
+      "icon_desc": "Teste grátis de 3 dias, cancele quando quiser.",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 10,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Remova os anúncios e desbloqueie todas as funções agora mesmo!",
+      "name": "Atualizar para Ad-free",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Avalie gratuitamente por 3 dias"
+    },
+    {
+      "moduleId": 11,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Veja a sua versão de bebé fofo",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Verificar o meu resultado"
+    },
+    {
+      "moduleId": 13,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Transforme uma fotografia comum numa fantástica obra de arte",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Obter a minha pintura"
+    },
+    {
+      "moduleId": 15,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Explore o animal espiritual que há em si",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancele quando quiser.  Irá prolongar automaticamente para 96,88$/ano.",
+      "button_name": "Verificar o meu resultado"
+    }
+  ]
+}

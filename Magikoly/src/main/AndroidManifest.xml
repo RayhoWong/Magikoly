@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="magikoly.magiccamera">
+    <!-- 此权限用于访问Internet功能 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 此权限用于实现震动功能 -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 此权限用于GO桌面将某些信息写入SD卡功能 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 此权限用于获取关于网络状态信息的功能 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 此权限用于IAP付费 -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- 拍照 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<!--友盟需要用到下面两个location权限
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!--广告sdk-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!--
+<supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
+    -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" /> <!-- 广告sdk需要的权限start -->
+    <!-- 获取正在运行的任务列表权限，智能预加载需要权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- Window相关权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- mobilecore广告需要权限  will make sure the screen doesn’t turn off while the user is watching a video ad (only). This permission is optional but highly recommended if you wish to show video ads. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 智能预加载 -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application
+        android:name="com.glt.magikoly.application.ApplicationProxy"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.glt.magikoly.TestActivity"/>
+        <activity
+            android:name="com.glt.BeautyTestActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <meta-data
+            android:name="buildType"
+            android:value="${BUILD_TYPE}" />
+        <meta-data
+            android:name="channel"
+            android:value="${CHANNEL}" />
+        <meta-data
+            android:name="store"
+            android:value="${STORE}" />
+        <meta-data
+            android:name="svn"
+            android:value="${SVN}" />
+        <meta-data
+            android:name="abTestUser"
+            android:value="${ABTEST_USER}" />
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.34" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="false" />
+        <!--
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="59c4868ed27bcd9ad47ebb1965aabaeadfb529a9"
+            />
+        -->
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="face" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="qD_ETVvkH-t5fGbcApv4KRy7REkKxaLmoL_Gru-7ssCV7o7Ha1MvSJ1uXlDTJZE6vDMk5KrxB1RIpTZOZxI1EJ" />
+       <!-- <meta-data
+            android:name="umeng_appkey"
+            android:value="5d9f0e890cafb2152b000207"
+            />-->
+        <meta-data
+            android:name="bugly_appId"
+            android:value="34364f552c"
+            />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.glt.magikoly.MagikolyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/FaceActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.glt.magikoly.permission.PermissionProxy"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleInstance"
+            android:multiprocess="true"
+            android:theme="@style/TranslucentTheme" />
+
+        <provider
+            android:name="com.glt.magikoly.pref.FaceSharedPreferences"
+            android:authorities="${applicationId}.SharedPreferencesProvider"
+            android:exported="true" /> <!-- <provider -->
+
+        <!--广告sdk-->
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.TTFileProvider"
+            android:authorities="${applicationId}.TTFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <provider
+            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+            android:authorities="${applicationId}.TTMultiProvider"
+            android:exported="false" />
+
+        <!-- android:name="com.cs.bd.commerce.util.io.MultiprocessSharedPreferences" -->
+        <!-- android:authorities="你的authority" -->
+        <!-- android:exported="false" /> -->
+        <!--
+<service
+                android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+                android:enabled="true"/>
+        -->
+        <!-- 守护进行SDK begin -->
+        <!-- 要守护的进程 -->
+        <service
+            android:name="com.glt.magikoly.deamon.DaemonService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.glt.magikoly.deamon.DaemonReceiver"
+            android:enabled="true" /> <!-- 用于设置常驻/辅助进程服务为前台服务，必须配置在相应进程里 -->
+        <service
+            android:name="com.glt.magikoly.deamon.DaemonService$InnerDaemonService"
+            android:enabled="true" /> <!-- 辅助进程 -->
+        <service
+            android:name="com.glt.magikoly.deamon.AssistantService"
+            android:process=":daemonAssistant" />
+
+        <receiver
+            android:name="com.glt.magikoly.deamon.AssistantReceiver"
+            android:process=":daemonAssistant" /> <!-- 用于设置常驻/辅助进程服务为前台服务，必须配置在相应进程里 -->
+        <service
+            android:name="com.glt.magikoly.deamon.AssistantService$InnerAssistantService"
+            android:process=":daemonAssistant" /> <!-- 守护进行SDK end -->
+        <!-- 买量SDK start -->
+        <!-- AppFlyer Sdk 相关  要放在所有com.android.vending.INSTALL_REFERRE的最前面 -->
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver> <!-- 买量SDK end -->
+        <!-- CommerceAdSdk===BEGIN=========================== -->
+        <!-- 智能预加载服务 -->
+        <!--
+<service android:name="com.cs.bd.service.IntelligentPreloadService"
+        android:label="Intelligent Preload Service" android:process=":com.cs.bd.service.IntellService" />
+        -->
+        <!-- CommerceAdSdk===END===================================== -->
+        <service android:name="com.cpcphone.abtestcenter.statics.SchedulerStaticsService" />
+
+        <activity
+            android:name="com.mopub.mobileads.MoPubActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.mobileads.MraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.common.MoPubBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.mobileads.RewardedMraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.glt.magikoly.download.TestDownloadActivity" />
+    </application>
+
+</manifest>

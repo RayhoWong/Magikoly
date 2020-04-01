@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_id_aging_shutter" type="id"/>
+    <item name="main_id_baby_predictor" type="id"/>
+    <item name="main_id_ethnicity_analyzer" type="id"/>
+    <item name="main_id_gender_switch" type="id"/>
+
+    <item name="admob_native_id_container" type="id"/>
+    <item name="admob_native_ad_close" type="id"/>
+</resources>

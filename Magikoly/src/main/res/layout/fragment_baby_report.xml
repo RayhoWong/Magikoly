@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f5ff"
+    android:paddingBottom="65.7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <!--<include layout="@layout/include_face_common_toolbar" />-->
+
+        <!--父母头像-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/fragment_baby_heart"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/choose_parent_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/fragment_baby_photo_bg">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/fragment_baby_add"/>
+
+                        <com.glt.magikoly.view.RoundedImageView
+                            android:id="@+id/parent_photo_left"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            app:riv_border_width="0dp"
+                            app:riv_oval="true"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/fragment_baby_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/fragment_baby_name_dad"
+                        android:textColor="#9b9a9e"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/choose_parent_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/fragment_baby_photo_bg">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/fragment_baby_add"/>
+
+                        <com.glt.magikoly.view.RoundedImageView
+                            android:id="@+id/parent_photo_right"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            app:riv_border_width="0dp"
+                            app:riv_oval="true"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/fragment_baby_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/fragment_baby_name_mom"
+                        android:textColor="#9b9a9e"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+        <!--宝宝结果头像-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/fragment_baby_result_bg">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/fragment_baby_question"/>
+
+
+                <com.glt.magikoly.view.RoundedImageView
+                    android:id="@+id/baby_photo"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    app:riv_border_width="0dp"
+                    app:riv_oval="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:background="@drawable/fragment_baby_result_front"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:text="@string/fragment_baby_title_female"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+            </FrameLayout>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/poster_water_mask"
+                android:layout_width="96dp"
+                android:layout_height="38dp"
+                android:layout_gravity="right|top"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="42dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_water_mask"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

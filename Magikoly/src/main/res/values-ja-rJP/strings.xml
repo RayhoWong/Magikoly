@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Magikoly</string>
+    <string name="splash_resources_name">subscribe_splash_resources_jp.json</string>
+
+    <string name="takephoto_desc_ethnicity">写真を撮り、あなたの顔がフレームの真ん中にくるようにしてください。</string>
+    <string name="subscribe_close_bottom_long_text">このオファーを希望しない、老年シャッターや赤ちゃん予測なども試さない。</string>
+    <string name="subscribe_close_bottom_text">結構です。</string>
+
+    <!--种族列表-->
+    <string name="function_ethnicity_white">白人</string>
+    <string name="function_ethnicity_black">黒人</string>
+    <string name="function_ethnicity_other">その他</string>
+    <string name="function_ethnicity_latino">ラテンアメリカ人</string>
+    <string name="function_ethnicity_spanish">中東</string>
+    <string name="function_ethnicity_asian">アジア人</string>
+
+    <string name="save_to_gallery">ギャラリーに保存</string>
+    <string name="ok">Ok</string><!--评分弹框-->
+    <string name="function_rate_text">Magikolyをどう思いますか？</string>
+    <string name="rate_five_star_toast_text">5つ星の評価は品質改善の励みになります。</string>
+    <string name="dialog_rate_ask_title">申し訳ありません…</string>
+    <string name="dialog_rate_ask_content">フィードバックをお願いできますか？</string>
+    <string name="cancel">キャンセル</string>
+    <string name="give_feedback">フィードバックする</string>
+
+
+    <string name="unclear_face">不明瞭な顔</string>
+    <string name="face_detect_fail">顔を認識できませんでした</string>
+    <string name="face_detect_fail_tips">別の写真を撮るか選ぶかしてください。</string>
+    <string name="network_error">ネットワークエラー</string>
+    <string name="network_error_tips">ネットワークの状態を確認してやり直してください。</string>
+    <string name="unknown_error">原因不明のエラー</string>
+    <string name="unknown_error_tips">原因不明のエラーが発生しました。もう一度お試しください。</string>
+    <string name="identification_error">識別エラー</string>
+    <string name="error_code_1">エラーコード：01</string>
+    <string name="error_code_2">エラーコード：02</string>
+    <string name="error_code_3">エラーコード：03</string>
+    <string name="error_code_4">エラーコード：04</string>
+
+
+    <string name="get_my_result">結果を確認する</string>
+
+
+    <string name="save_report_success">画像がギャラリーに保存されました</string>
+    <string name="save_report_failed">画像を保存できませんでした。後でお試しください</string>
+
+
+    <string name="setting_item_upgrade">フルバージョンにアップグレード</string>
+    <string name="setting_item_privacy_policy">個人情報保護方針</string>
+    <string name="setting_item_service_agreement">サービス契約</string>
+    <string name="setting_item_feedback">フィードバック</string>
+    <string name="feedback_detail_hint">問題を詳しく説明してください:)</string>
+    <string name="feedback_email_hint">メールアドレス</string>
+    <string name="feedback_submit">送信</string>
+    <string name="feedback_email_error">あらまあ。有効なメールアドレスが必要です。</string>
+    <string name="feedback_email_detail_empty_error">あなたが抱えている問題を教えてください。</string>
+    <string name="feedback_submit_success">皆さまのフィードバックは大変貴重です。できるだけ早く確認します。</string>
+    <string name="feedback_submit_fail">あらまあ。接続に失敗しました。再度お試し下さい。</string>
+    <string name="feedback_uploading">アップロードしています…</string>
+    <string name="permission_tip_camera">画像をキャプチャして分析するにはIMAGE_CAPTUREを許可して下さい。</string>
+    <string name="permission_tip_camera_never">画像をキャプチャして分析するにはIMAGE_CAPTUREを許可して下さい。システム設定で開くことができます。</string>
+    <string name="permission_tip_write">画像をアルバムに保存するにはWRITE_EXTERNAL_STORAGEを許可して下さい。</string>
+    <string name="permission_tip_write_never">あなたの顔写真を除外してここに表示するには、WRITE_EXTERNAL_STORAGEを許可して下さい。システム設定で開くことができます。</string>
+    <string name="permission_tip_write_save_never">画像をギャラリーに保存するにはWRITE_EXTERNAL_STORAGEを許可して下さい。システム設定で開くことができます。</string>
+    <string name="permission_tip_write_never_album">ここにローカル画像を表示するには、WRITE_EXTERNAL_STORAGEを許可してください。システム設定で開くことができます。</string>
+
+
+    <string name="subscribe_gp_connection_error">Google Playに接続不可、後で再度お試しください。</string>
+    <string name="subscribe_network_error">ネットワーク利用不可、接続後に再試行してください。</string>
+
+
+    <string name="faces">顔</string>
+    <string name="album">アルバム</string>
+    <string name="discovery">有名人</string>
+    <string name="aging_camera">エージングカメラ</string>
+    <string name="gender_swap">ジェンダースワップ</string>
+    <string name="ethnicity_analy">民族分析</string>
+    <string name="loading">読み込み中...</string>
+
+
+    <string name="string_photos">写真</string>
+
+    <string name="face_album_choose_image">画像を選択</string>
+    <string name="takephoto_local">ローカル</string>
+    <string name="takephoto_explore">探索</string>
+    <string name="multi_face_desc">複数の顔が認識されました。\n一つ選択してください</string>
+    <string name="album_detail_title">すべての写真</string>
+    <string name="take_photo">写真を撮る</string>
+    <string name="no_face_photo">顔のある写真はありません、\n今すぐ自撮りで撮ってください</string>
+    <string name="album_take_photo">今すぐ自撮りをする</string>
+
+
+    <string name="not_read_permission">読み取り許可なし</string>
+
+
+    <string name="no_permission_album">ここにあなたのローカル画像を表示するにはあなたのWRITE_EXTERNAL_STORAGEを許可してください</string>
+    <string name="text_retry">再試行</string>
+
+
+    <string name="no_photos">携帯電話に写真がありません</string>
+
+    <string name="rate_before_google_play">万歳！</string>
+    <string name="rate_before_google_play_2">評価をありがとう！</string>
+    <string name="rate_before_google_play_3">Google Playで評価してください。</string>
+
+    <string name="dialog_watch_video_title">無料アクセス</string>
+    <string name="dialog_watch_video_desc">動画広告を見ると、1回限りの無料アクセスが可能です。今すぐビデオを再生しますか？</string>
+    <string name="image_not_found_error">エラー404</string>
+    <string name="image_not_found_error_tips">画像が見つかりません</string>
+    <string name="searching_for_faces">顔を探す</string>
+    <string name="search_complete">検索完了</string>
+    <string name="poster_app_desc">探索して楽しんでください</string>
+    <string name="poster_result_title_gender_male">私の男性版</string>
+    <string name="poster_result_desc_gender_male">あなたの異性バージョンを探ります。Google PlayでMagikolyを検索</string>
+    <string name="poster_result_title_gender_female">私の女性版</string>
+    <string name="poster_result_desc_gender_female">あなたの異性バージョンを探ります。Google PlayでMagikolyを検索</string>
+    <string name="poster_result_title_aging">50年後の私の顔</string>
+    <string name="poster_result_desc_aging">あなたの将来の外観などを探ります。Google PlayでMagikolyを検索</string>
+    <string name="poster_result_title_ethnicity">私の遺伝子に眠る民族性</string>
+    <string name="poster_result_desc_ethnicity">あなたの血液の秘密を探ります。Google PlayでMagikolyを検索</string>
+    <string name="poster_gp_desc">Google Playで%1$sを検索</string>
+    <string name="layout_purchase_trial_count_text">毎日10の無料分析の機会があります、フルバージョンにアップグレードするか明日再度お試しください^^</string>
+    <string name="layout_purchase_watch_video">ビデオを見る</string>
+    <string name="layout_purchase_one_time_access">1回限りのアクセスを入手</string>
+    <string name="layout_purchase_upgrade">ロック解除にアップグレード</string>
+    <string name="layout_purchase_upgrade_full_version">フルバージョンにアップグレードして高度な機能をお楽しみください。</string>
+    <string name="discovery_online_result">オンライン結果</string>
+    <string name="discovery_poplur_search">人気の検索</string>
+    <string name="discovery_search_hint">名前を入力してオンラインで検索</string>
+    <string name="confirm_exit">写真はまだ保存されていません。結果を保存せずに終了してもよろしいですか？</string>
+    <string name="permission_tip_write_deny">あなたの顔写真を除外してここに表示するにはWRITE_EXTERNAL_STORAGEを許可してください</string>
+    <string name="no_photo_btn_album">今すぐ自撮りをする</string>
+
+    <string name="load_more">上にスワイプしてさらに読み込む</string>
+    <string name="load_error">:(おや、ロードエラーです...</string>
+    <string name="load_finish">データがありません</string>
+    <string name="power_by_bing">Bing提供</string>
+
+    <string name="camera_error_tip">カメラ接続中にエラーが発生しました</string>
+    <string name="feedback_email_empty">おっと！私たちが問題を追跡できるよう忘れずにメールを残してください。</string>
+    <string name="error">エラー</string>
+
+    <string name="loading_for_aging_tip">顔をエージング中</string>
+    <string name="loading_for_gender_tip">性別切り替え中</string>
+    <string name="loading_for_ethnicity_tip">民族性を分析中</string>
+    <string name="loading_for_baby_tip">赤ちゃんの画像合成中</string>
+    <string name="loading_for_beauty_tip">あなたの顔を美しくします</string>
+    <string name="effects">エフェクト</string>
+    <string name="beauty">ビューティー</string>
+    <string name="analysis">分析</string>
+    <string name="baby_prediction">子供の合成</string>
+    <string name="fragment_baby_name_dad">お父さん</string>
+    <string name="fragment_baby_name_mom">お母さん</string>
+    <string name="fragment_baby_title_male">息子</string>
+    <string name="fragment_baby_title_female">娘</string>
+    <string name="inner_pick_title">パートナーの写真を撮るか選択する</string>
+    <string name="inner_pick_take_photo">写真を撮る</string>
+    <string name="inner_pick_album">アルバムからアップロード</string>
+    <string name="inner_pick_search_online">有名人の写真をオンラインで検索</string>
+    <string name="baby_mother_gender_fail">女性ではない写真</string>
+    <string name="baby_mother_gender_fail_desc">別の写真を撮るかアップロードして、写真に女性がいることを確認してください。</string>
+    <string name="baby_father_gender_fail">男性ではない写真</string>
+    <string name="baby_father_gender_fail_desc">別の写真を撮るかアップロードして、写真に男性がいることを確認してください。</string>
+    <string name="camera_launching">カメラの起動…</string>
+    <string name="subscribe_back_toast">戻るボタンをタップでアプリを終了します</string>
+    <string name="discovery_guide_popup_text">お気に入りの\nスターの写真を見つけよう~</string>
+    <string name="premium">プレミアム</string>
+
+    <string name="rate_five_star_title">無料でレポートのロックを解除！</string>
+    <string name="rate_five_star_content">Google Playで5つ星の評価をつけて、\n1日間すべての機能無料をゲット。</string>
+    <string name="rate_five_star_btn">5つ星評価</string>
+    <string name="rate_five_star_unlock_up">5つ星評価</string>
+    <string name="rate_five_star_unlock_down">をつけて1日間無料をゲット</string>
+    <string name="rate_free_toast_text">あとわずかワンステップで無料アクセスをゲット！</string>
+
+    <string name="rate_five_star_title_v2">無料アクセス</string>
+    <string name="rate_five_star_content_v2">Play Storeに<b>評価を残すと 1日無料アクセス</b> できる場合があります。</string>
+    <string name="rate_five_star_btn_v2">評価する</string>
+    <string name="rate_five_star_unlock_up_v2">評価を残す</string>
+    <string name="rate_five_star_unlock_down_v2">1日無料アクセスを取得する</string>
+    <string name="now">今</string>
+    <string name="latest_year">50年後</string>
+    <string name="loading_for_child_tip">あなたの顔を赤ちゃんのような顔に…</string>
+    <string name="child_mirror">赤ちゃん顔</string>
+    <string name="big_eyes">大きな目</string>
+    <string name="face_shape">ほっそり顔</string>
+    <string name="whitening">美白</string>
+    <string name="smoother">すべすべ肌</string>
+    <string name="loading_for_art_filter_tip">フィルタを適用しています…</string>
+    <string name="loading_seconds">（約2〜3秒かかります）</string>
+    <string name="purchase_backhome_title">写真を撮る/アップロードする</string>
+    <string name="purchase_backhome_subtitle">タップしてホームページに固定</string>
+    <string name="filter">フィルター</string>
+    <string name="art_filter">コミックフィルター</string>
+    <string name="five_more_free_accesses">さらに5回の無料アクセス</string>
+    <string name="five_time_free_chance_content">素晴らしいチャンス！ビデオ広告を見ると、プレミアム機能に5回無料でアクセスできます。今すぐビデオを再生しますか？</string>
+    <string name="quit">終了する</string>
+    <string name="got_five_time_free_access">5回無料でアクセスできます！</string>
+    <string name="main_banner_title_1">素晴らしい\nエイジングカメラ</string>
+    <string name="main_banner_title_2">素晴らしい\n漫画効果</string>
+    <string name="main_banner_title_3">面白い子顔\nフィルター</string>
+    <string name="main_banner_title_4">完璧な美\nしさのカメラ</string>
+    <string name="main_banner_title_5">完全\nに広告なし</string>
+    <string name="main_banner_title_6">見事なコ\nミックアート</string>
+    <string name="main_banner_title_7">魔法の\n1秒スケッチ</string>
+    <string name="main_banner_title_8">エレガント\nで繊細な油絵</string>
+    <string name="main_banner_title_9">よりク\nールな効果</string>
+    <string name="permission_tip_title_upload_img">分析のために撮影または選択したすべての画像は、分析と処理のためにクラウドにアップロードする必要があります。処理後すぐに削除されます。</string>
+    <string name="yes_leaving">はい、終了します</string>
+    <string name="stay_here">ここに残ります</string>
+    <string name="loading_for_animal_tip">動物に変わる…</string>
+    <string name="animal">動物の属性</string>
+    <string name="video">ビデオ</string>
+    <string name="gif">GIF</string>
+    <string name="exporting_video">ビデオをエクスポートしています…</string>
+    <string name="exporting_gif">GIFをエクスポートしています…</string>
+    <string name="video_saved_to_gallery">ビデオをギャラリーに保存しました</string>
+    <string name="gif_saved_to_gallery">GIFをギャラリーに保存しました</string>
+    <string name="exporting_gif_please_wait">GIFをエクスポートしています。お待ちください。</string>
+    <string name="exporting_video_failed">動画を生成できませんでした。しばらくしてからもう一度お試しください</string>
+    <string name="exporting_gif_failed">GIFを生成できませんでした。しばらくしてからもう一度お試しください</string>
+</resources>

@@ -1,0 +1,147 @@
+{
+  "datas": [
+    {
+      "moduleId": 1,
+      "icon_name": "1 MTH：$27.99",
+      "icon_desc": "3-day free trial, cancel anytime.",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 2,
+      "icon_name": "3-Day Free Trial",
+      "icon_desc": "Yearly subscription for $8.07/MTH, cancel anytime.",
+      "banner": "",
+      "title": "Add magic to your selfie",
+      "name": "",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year or 27.99/MTH. By trying for free, you have accepted our #Privacy Policy#, ^Terms & Conditions^.",
+      "button_name": "Try For Free"
+    },
+    {
+      "moduleId": 6,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Premium features below are <b>Free To Try</b> You can <b>Cancel Anytime</b>",
+      "name": "Really wanna quit Free Trial?",
+      "description": "Amazing\nAging Camera#Magical\nGender Swap#Unlimited\nEthnicity Analysis#Best\nPhoto Editor#Advanced\nTechnology#Accurate\nReporting",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Try For Free"
+    },
+    {
+      "moduleId": 3,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Meet your future self",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Check My Result"
+    },
+    {
+      "moduleId": 4,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Discover another you ",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Check My Result"
+    },
+    {
+      "moduleId": 5,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Detect your mysterious ethnicity",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Check My Result"
+    },
+    {
+      "moduleId": 7,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "See if your lovely baby is more like you",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Check My Result"
+    },
+    {
+      "moduleId": 9,
+      "icon_name": "3-Day Free Trial",
+      "icon_desc": "Yearly subscription for $8.07/MTH, cancel anytime.",
+      "banner": "",
+      "title": "No charge if cancelled within 3 days！",
+      "name": "Unlock Your Result",
+      "description": "Aging your face\nComposite future baby\nMagical gender swap\nAccurate ethnicity analysis\nBeautify your selfie",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year or 27.99/MTH. By trying for free, you have accepted our #Privacy Policy#, ^Terms & Conditions^.",
+      "button_name": "Try For Free"
+    },
+    {
+      "moduleId": 8,
+      "icon_name": "1 MTH：$27.99",
+      "icon_desc": "3-day free trial, cancel anytime.",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 10,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Remove ads & unlock all functions now !",
+      "name": "Upgrade to Ad-free",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Start 3-Day Free Trial"
+    },
+    {
+      "moduleId": 11,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "View your cute baby-like version",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Check My Result"
+    },
+    {
+      "moduleId": 13,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Change ordinary photo into stunning art piece",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Get My Painting"
+    },
+    {
+      "moduleId": 15,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "Explore the spirit animal in you",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "Cancel anytime.  Will automatically extend to $96.88/year.",
+      "button_name": "Check My Result"
+    }
+  ]
+}

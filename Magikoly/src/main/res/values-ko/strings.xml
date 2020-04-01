@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="splash_resources_name">subscribe_splash_resources_ko.json</string>
+
+
+    <!--种族列表-->
+    <string name="function_ethnicity_white">백인</string>
+    <string name="function_ethnicity_asian">아시아</string>
+    <string name="function_ethnicity_spanish">중동</string>
+    <string name="function_ethnicity_latino">라티노</string>
+    <string name="function_ethnicity_black">흑인</string>
+    <string name="function_ethnicity_other">기타</string>
+
+
+    <!--评分弹框-->
+    <string name="function_rate_text">Magikoly 앱이 맘에 드시나요?</string>
+    <string name="rate_five_star_toast_text">평점으로 별 5개를 주시면 더 좋은 서비스로 보답해 드리겠습니다 :) </string>
+    <string name="dialog_rate_ask_title">불편을 끼쳐 죄송합니다...</string>
+    <string name="dialog_rate_ask_content">피드백 좀 부탁 드려도 될까요? 더 나은 서비스를 제공해 드리도록 노력하겠습니다.</string>
+    <string name="cancel">취소하기</string>
+    <string name="give_feedback">피드백 남기기</string>
+
+
+    <string name="takephoto_desc_ethnicity">사진을 촬영하시며 얼굴 정면이 프레임 중간에 있도록 하십시오~</string>
+
+
+    <string name="face_detect_fail">얼굴 인식 실페</string>
+    <string name="face_detect_fail_tips">얼굴 정면이 포함돼 있는 사진을 찍거나 선택하세요~</string>
+    <string name="unclear_face">불분명 한 얼굴</string>
+    <string name="network_error">네트워크 오류</string>
+    <string name="network_error_tips">네트워크 상태를 확인하시고 다시 시도하십시오.</string>
+    <string name="unknown_error">알 수 없는 오류</string>
+    <string name="unknown_error_tips">죄송하지만 알 수 없는 오류가 발생했습니다ㅠ 다시 시도해 주십시오.</string>
+
+
+    <string name="get_my_result">나의 결과 확인</string>
+
+
+    <string name="save_to_gallery">앨범에 저장</string>
+    <string name="save_report_success">갤러리에 저장되었습니다~</string>
+    <string name="setting_item_upgrade">풀 버전으로 업그레이드</string>
+    <string name="setting_item_feedback">피드백</string>
+    <string name="setting_item_service_agreement">이용 약관</string>
+    <string name="setting_item_privacy_policy">개인 정보 보호 정책</string>
+    <string name="subscribe_close_bottom_text">아니오, 괜찮습니다. </string>
+    <string name="subscribe_close_bottom_long_text">저는 이런 할인을 원하지 않으며 노화 카메라,  아기 예언자 등 기능도 체험하고 싶지 않습니다.   </string>
+    <string name="subscribe_gp_connection_error">구글 플레이에 연결할 수 없습니다, 나중에 다시 시도해 주세요.</string>
+    <string name="subscribe_network_error">네트워크를 이용할 수 없습니다, 연결 후 다시 시도해 주세요.</string>
+    <string name="save_report_failed">이미지 저장 중 오류가 발생했습니다ㅠ 나중에 다시 시도해 주십시오.</string>
+
+
+    <string name="ok">Ok</string>
+
+
+    <string name="permission_tip_write">이미지를 앨범에 저장해 드리는 데 WRITE_EXTERNAL_STORAGE 권한이 필요한단 말이에요ㅠ</string>
+    <string name="permission_tip_write_never">저장되 있는 인물 사진들을 여기에  보여드리는 데 WRITE_EXTERNAL_STORAGE 권한이 필요해요. 시스템 설정에서 켜주세요~</string>
+    <string name="permission_tip_write_save_never">이미지를 갤러리에 저장해 드리는 데 WRITE_EXTERNAL_STORAGE 권한이 필요한단 말이에요ㅠ 시스템 설정에서 켜주세요~</string>
+    <string name="permission_tip_write_never_album">저장되 있는 사진들을 여기에  보여드리는 데 WRITE_EXTERNAL_STORAGE 권한이 필요해요. 부여해 주세요~시스템 설정에서 켜주세요~</string>
+    <string name="feedback_email_hint">메일 주소</string>
+    <string name="feedback_detail_hint">문제점을 설명해 주세요</string>
+    <string name="feedback_submit_success">피드백 주셔서 감사합니다. 빠른 시일 내에 검토하겠습니다.</string>
+    <string name="feedback_email_error">유효한 메일 주서를 입력해 주세요~</string>
+    <string name="feedback_email_detail_empty_error">문제점을 알려주시지 않았습니다ㅠ</string>
+    <string name="feedback_uploading">업로드 중…</string>
+    <string name="feedback_submit_fail">웁스! 서버  연결 실패... 나중에 다시 시도해 주세요ㅠ</string>
+    <string name="feedback_submit">제출</string>
+
+    <string name="rate_before_google_play">당신을 만나게 되어 너무 기뻐요!</string>
+    <string name="rate_before_google_play_2">인정해 주셔서 감사해요~</string>
+
+    <string name="error_code_1">오류 코드: 01</string>
+    <string name="error_code_2">오류 코드: 02</string>
+    <string name="error_code_3">오류 코드: 03</string>
+    <string name="error_code_4">오류 코드: 04</string>
+    <string name="identification_error">인식 오류</string>
+    <string name="layout_purchase_trial_count_text">매일에 무료 분석 기회가 10번만 있어요~ 풀 버전으로 업그레이드하시거나 내일 다시 시도해 주십시오^^</string>
+    <string name="layout_purchase_watch_video">비디오 광고 관람</string>
+    <string name="layout_purchase_one_time_access">프리미엄 기능 1회 사용 가능</string>
+    <string name="layout_purchase_upgrade">풀 버전 업그레이드</string>
+    <string name="layout_purchase_upgrade_full_version">풀 버전으로 업그레이드하시고 프리미엄 기능을 즐기세요~</string>
+    <string name="discovery_online_result">온라인 결과</string>
+    <string name="discovery_poplur_search">인기 검색어</string>
+    <string name="discovery_search_hint">이름 입력하시면 온라인 검색 가능</string>
+    <string name="app_name">Magikoly</string>
+    <string name="take_photo">사진 촬영</string>
+    <string name="faces">얼굴</string>
+    <string name="album">갤러리</string>
+    <string name="discovery">연예인</string>
+    <string name="no_face_photo">인물 사진 저장된 거 없는데요, \n지금 셀카 한 장 찍으실래요?</string>
+    <string name="searching_for_faces">인물 사진 스캔 중</string>
+    <string name="search_complete">스캔 완료</string>
+    <string name="takephoto_local">앨범</string>
+    <string name="takephoto_explore">검색</string>
+    <string name="face_album_choose_image">인물 사진 선택</string>
+    <string name="string_photos">사진 N장</string>
+    <string name="no_photos">사진 저장된 거 없는데요.</string>
+    <string name="no_permission_album">저장되 있는 사진들을 여기에  보여드리는 데 WRITE_EXTERNAL_STORAGE 권한이 필요해요. 부여해 주세요~</string>
+    <string name="loading">로딩 중</string>
+    <string name="multi_face_desc">여러 얼굴 인식되었으니,\n하나만 선텍하세요</string>
+    <string name="dialog_watch_video_title">무료 사용 기회</string>
+    <string name="dialog_watch_video_desc">비디오 광고를 한번 보시면 프리미엄 기능을 무료로 1회 사용 가능합니다. 지금 바로 재생해 드릴까요?</string>
+    <string name="aging_camera">노화 셔터</string>
+    <string name="gender_swap">성별 전환</string>
+    <string name="ethnicity_analy">인종 분석</string>
+    <string name="confirm_exit">이미지 아직 저장하시지 않았는데 나가시겠습니까?</string>
+    <string name="permission_tip_write_deny">저장되 있는 인물 사진들을 여기에  보여드리는 데 WRITE_EXTERNAL_STORAGE 권한이 필요해요. 부여해 주세요~</string>
+    <string name="no_photo_btn_album">지금 셀카 한 장 찍으실래요?</string>
+    <string name="power_by_bing">Power by Bing</string>
+
+    <string name="camera_error_tip">카메라에 연결하는 중에 오류가 발생했습니다ㅠ</string>
+    <string name="album_take_photo">지금 셀카 한 장 찍으실래요?</string>
+    <string name="error">오류</string>
+    <string name="rate_before_google_play_3">구글 플레이에서 평점 좀 부탁드려도 될까요?</string>
+    <string name="feedback_email_empty">메일 주소를 제공해 주시면 연락 드리도록 하겠습니다. </string>
+    <string name="poster_result_title_aging">50년 뒤 나의 모습</string>
+    <string name="poster_result_desc_aging">당신의 미래 모습을 확인해 보세요.
+Magikoly를 구글 플레이에 검색해 봐요~</string>
+    <string name="poster_result_title_gender_male">남자 버전의 나</string>
+    <string name="poster_result_desc_gender_male">성별 바꾼 당신의 모습을 확인해 보세요.
+Magikoly를 구글 플레이에 검색해 봐요~</string>
+    <string name="poster_result_title_gender_female">여자 버전의 나</string>
+    <string name="poster_result_desc_gender_female">성별 바꾼 당신의 모습을 확인해 보세요.
+Magikoly를 구글 플레이에 검색해 봐요~</string>
+    <string name="poster_result_title_ethnicity">유전자에 숨겨진 비밀</string>
+    <string name="poster_result_desc_ethnicity">당신의 인종 구성을 확인해 보세요.
+Magikoly를 구글 플레이에 검색해 봐요~</string>
+
+    <string name="permission_tip_camera_never">사진을 찍어드리는 데 IMAGE_CAPTURE 권한이 필요한단 말이에요ㅠ 시스템 설정에서 켜주세요~</string>
+
+    <string name="image_not_found_error">404 오류</string>
+    <string name="image_not_found_error_tips">이미지를 찾을 수 없음</string>
+
+    <string name="loading_for_aging_tip">얼굴이 늙어지는 중</string>
+    <string name="loading_for_gender_tip">성별 전환 중</string>
+    <string name="loading_for_ethnicity_tip">인종 분석 중</string>
+    <string name="loading_for_baby_tip">아기를 합성하는 중</string>
+    <string name="loading_for_beauty_tip">더 이뻐지는 중</string>
+    <string name="effects">합성</string>
+    <string name="beauty">뷰티</string>
+    <string name="analysis">분석</string>
+    <string name="baby_prediction">자녀 합성</string>
+    <string name="fragment_baby_name_dad">아빠</string>
+    <string name="fragment_baby_name_mom">엄마</string>
+    <string name="fragment_baby_title_male">우리 아들</string>
+    <string name="fragment_baby_title_female">우리 딸</string>
+    <string name="inner_pick_title">동반자의 사진 하나 찍거나 선택하시오</string>
+    <string name="inner_pick_take_photo">사진 촬영</string>
+    <string name="inner_pick_album">갤러리에서 업로드</string>
+    <string name="inner_pick_search_online">온라인에서 연예인 사진 검색</string>
+    <string name="baby_mother_gender_fail">여성 사진 아님</string>
+    <string name="baby_mother_gender_fail_desc">다시 사진을 촬영하시거나 업로드하시며 여자 얼굴이 프레임 중간에 있도록 하십시오~</string>
+    <string name="baby_father_gender_fail">남성 사진 아님</string>
+    <string name="baby_father_gender_fail_desc">다시 사진을 촬영하시거나 업로드하시며 남자 얼굴이 프레임 중간에 있도록 하십시오~</string>
+    <string name="camera_launching">카메라 런칭 중…</string>
+
+    <string name="subscribe_back_toast">‘뒤로’ 버튼을 한번 더 누르시면 앱이 종료됩니다</string>
+    <string name="discovery_guide_popup_text">여기서 연예\n인 사진 찾을 수 있어요~</string>
+    <string name="premium">프리미엄</string>
+
+    <string name="rate_five_star_title">무료 이용 기회</string>
+    <string name="rate_five_star_content">평점 별 5개 주시면 프리미엄 기능들을 \n하루동안 무료로 사용 가능합니다. 지금 바로 평점하러 이동하실까요?</string>
+    <string name="rate_five_star_btn">별 5개 주러가기</string>
+    <string name="rate_five_star_unlock_up">평점 별 5개 부여</string>
+    <string name="rate_five_star_unlock_down">프리미엄 기능 하루동안 사용 가능</string>
+    <string name="rate_free_toast_text">무료 이용 기회 얻기 일보직전!</string>
+
+    <string name="rate_five_star_title_v2">무료 이용 기회</string>
+    <string name="rate_five_star_content_v2">구글 플레이 스토어에서<b>평점을 남기시면</b> 프리미엄 기능들을 <b>하루동안 무료</b> 로 사용 가능합니다.</string>
+    <string name="rate_five_star_btn_v2">평점 주러 이동</string>
+    <string name="rate_five_star_unlock_up_v2">평점 매기기</string>
+    <string name="rate_five_star_unlock_down_v2">프리미엄 기능 하루동안 무료사용</string>
+    <string name="now">지금</string>
+    <string name="latest_year">50년 후</string>
+    <string name="loading_for_child_tip">아기 얼굴로 변신 중…</string>
+    <string name="child_mirror">아기 얼굴</string>
+    <string name="big_eyes">눈 크게</string>
+    <string name="face_shape">브이라인</string>
+    <string name="whitening">톤업</string>
+    <string name="smoother">매끈하게</string>
+    <string name="loading_for_art_filter_tip">필터 적용 중…</string>
+    <string name="loading_seconds">(2-3초 정도 걸릴 예정)</string>
+    <string name="purchase_backhome_title">사진 촬영 / 업로드</string>
+    <string name="purchase_backhome_subtitle">탭하면 메인 페이지로 이동</string>
+    <string name="filter">필터</string>
+    <string name="art_filter">만화 필터</string>
+    <string name="five_more_free_accesses">5회 무료 사용 기회</string>
+    <string name="five_time_free_chance_content">깜짝 이벤트! 지금 비디오 광고를 한번 보시면 프리미엄 기능들을 무료로 5회 사용 가능합니다. 바로 재생해 드릴까요?</string>
+    <string name="quit">싫다</string>
+    <string name="got_five_time_free_access">5회 무료 사용 기회 획득!</string>
+    <string name="main_banner_title_1">노후 미리 보기\n노화 카메라</string>
+    <string name="main_banner_title_2">이쁘장한\n만화 필터</string>
+    <string name="main_banner_title_3">아기자기한\n아기 얼굴 효과</string>
+    <string name="main_banner_title_4">더 아름답게\n얼굴 보장</string>
+    <string name="main_banner_title_5">각종 광고 컨텐츠\n싹쓸이</string>
+    <string name="main_banner_title_6">개성 충만\n만화 효과</string>
+    <string name="main_banner_title_7">1초만 걸리는\n스케치 효과</string>
+    <string name="main_banner_title_8">품위 있는\n유화 효과</string>
+    <string name="main_banner_title_9">더 많은\n멋진 필터들</string>
+    <string name="permission_tip_title_upload_img">분석을 위해 촬영하거나 선택한 모든 이미지들을 클라우드에 업로드하여 분석 및 이미지 프로세스 과정을 거칠 예정입니다. 처리가 완료되면 즉시 삭제됩니다.</string>
+    <string name="yes_leaving">나 나갈래</string>
+    <string name="stay_here">일단 남을래</string>
+    <string name="loading_for_animal_tip">동물로 변신 중…</string>
+    <string name="animal">동물 속성</string>
+    <string name="video">동영상</string>
+    <string name="gif">GIF</string>
+    <string name="exporting_video">동영상 내보내기 중…</string>
+    <string name="exporting_gif">GIF 내보내기 중…</string>
+    <string name="video_saved_to_gallery">갤러리에 저장되었습니다~</string>
+    <string name="gif_saved_to_gallery">갤러리에 저장되었습니다~</string>
+    <string name="exporting_gif_please_wait">GIF 내보내기 중，좀만 기다려주세요ㅜ</string>
+    <string name="exporting_video_failed">동영상 생성 중 오류가 발생했습니다ㅠ 나중에 다시 시도해 주십시오.</string>
+    <string name="exporting_gif_failed">GIF 생성 중 오류가 발생했습니다ㅠ 나중에 다시 시도해 주십시오.</string>
+</resources>

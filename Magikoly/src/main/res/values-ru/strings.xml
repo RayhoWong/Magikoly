@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Magikoly</string>
+    <string name="splash_resources_name">subscribe_splash_resources_ru.json</string>
+
+    <string name="takephoto_desc_ethnicity">Сфотографируйте и убедитесь, что ваше лицо\n находится прямо в центре кадра</string>
+    <string name="subscribe_close_bottom_long_text">Мне не нужно это предложение, и я не хочу пробовать Эффект состаривания, Прогноз о ребенке и т.д.</string>
+    <string name="subscribe_close_bottom_text">Нет, спасибо.</string>
+
+    <!--种族列表-->
+    <string name="function_ethnicity_white">Белый(-ая)</string>
+    <string name="function_ethnicity_black">Черный(ая)</string>
+    <string name="function_ethnicity_other">Прочее</string>
+    <string name="function_ethnicity_latino">Латино</string>
+    <string name="function_ethnicity_spanish">Латино</string>
+    <string name="function_ethnicity_asian">Азиат(-ка)</string>
+
+    <string name="save_to_gallery">Сохранить в Галерею</string>
+    <string name="ok">Хорошо</string><!--评分弹框-->
+    <string name="function_rate_text">Что вы думаете о Magikoly?</string>
+    <string name="rate_five_star_toast_text">5-звездочная оценка побуждает нас делать XD лучше.</string>
+    <string name="dialog_rate_ask_title">Извините…</string>
+    <string name="dialog_rate_ask_content">Не могли бы вы оставить отзыв?</string>
+    <string name="cancel">Отмена</string>
+    <string name="give_feedback">Оставить отзыв</string>
+
+
+    <string name="unclear_face">Нечеткое лицо</string>
+    <string name="face_detect_fail">Не удалось распознать лицо</string>
+    <string name="face_detect_fail_tips">Сфотографируйте или выберите другое изображение.</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="network_error_tips">Проверьте состояние сети и повторите попытку.</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="unknown_error_tips">Извините, произошла неизвестная ошибка, попробуйте еще раз.</string>
+    <string name="identification_error">Ошибка идентификации</string>
+    <string name="error_code_1">Код ошибки: 01</string>
+    <string name="error_code_2">Код ошибки: 02</string>
+    <string name="error_code_3">Код ошибки: 03</string>
+    <string name="error_code_4">Код ошибки: 04</string>
+
+
+    <string name="get_my_result">Проверить мой результат</string>
+
+
+    <string name="save_report_success">Изображение сохранено в Галерею</string>
+    <string name="save_report_failed">Не удалось сохранить изображение, повторите попытку позже</string>
+
+
+    <string name="setting_item_upgrade">Обновить до полной версии</string>
+    <string name="setting_item_privacy_policy">Политика конфиденциальности</string>
+    <string name="setting_item_service_agreement">Соглашение об оказании услуг</string>
+    <string name="setting_item_feedback">Отзыв</string>
+    <string name="feedback_detail_hint">Подробно опишите проблему :)</string>
+    <string name="feedback_email_hint">Адрес электронной почты</string>
+    <string name="feedback_submit">Отправить</string>
+    <string name="feedback_email_error">Ой-ой. Требуется действительный адрес электронной почты.</string>
+    <string name="feedback_email_detail_empty_error">Расскажите нам о своей проблеме, чтобы нам удалось лучше решить ее.</string>
+    <string name="feedback_submit_success">Ваше мнение очень важно для нас. Мы проверим это КАК МОЖНО СКОРЕЕ ~</string>
+    <string name="feedback_submit_fail">Ой-ой. Не удалось подключиться. Повторите попытку позже.</string>
+    <string name="feedback_uploading">Загрузка...</string>
+    <string name="permission_tip_camera">Нам нужно ваше разрешение IMAGE_CAPTURE для съемки изображений для анализа.</string>
+    <string name="permission_tip_camera_never">Нам нужно ваше разрешение IMAGE_CAPTURE для съемки изображений для анализа. Вы можете предоставить его в настройках системы.</string>
+    <string name="permission_tip_write">Нам нужно ваше разрешение WRITE_EXTERNAL_STORAGE для сохранения изображения в фотогалерею.</string>
+    <string name="permission_tip_write_never">Нам нужно ваше разрешение WRITE_EXTERNAL_STORAGE, чтобы отфильтровать фотографии вашего лица и показать их здесь. Вы можете предоставить его в настройках системы.</string>
+    <string name="permission_tip_write_save_never">Нам нужно ваше разрешение WRITE_EXTERNAL_STORAGE для сохранения изображения в фотогалерею. Вы можете предоставить его в настройках системы.</string>
+    <string name="permission_tip_write_never_album">Нам нужно ваше разрешение WRITE_EXTERNAL_STORAGE, чтобы показывать ваши локальные изображения здесь. Вы можете предоставить его в настройках системы.</string>
+
+
+    <string name="subscribe_gp_connection_error">Не удается подключиться к Google Play. Повторите попытку позже.</string>
+    <string name="subscribe_network_error">Сеть недоступна. Повторите попытку после подключения.</string>
+
+
+    <string name="faces">Лица</string>
+    <string name="album">Альбом</string>
+    <string name="discovery">Знаменитости</string>
+    <string name="aging_camera">Камера старения</string>
+    <string name="baby_prediction">Синтез ребенка</string>
+    <string name="gender_swap">Смена пола</string>
+    <string name="ethnicity_analy">Анализ расы</string>
+    <string name="loading">Загрузка</string>
+
+    <string name="string_photos">Фотографии</string>
+
+    <string name="face_album_choose_image">Выберите изображение</string>
+    <string name="takephoto_local">Локальное</string>
+    <string name="takephoto_explore">Изучить</string>
+    <string name="multi_face_desc">Распознано несколько лиц.\nПожалуйста, выберите одно</string>
+    <string name="album_detail_title">Все фотографии</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="no_face_photo">Нет фотографий с лицом,\nсделайте селфи сейчас</string>
+    <string name="album_take_photo">сделайте селфи сейчас</string>
+
+
+    <string name="not_read_permission">нет разрешения на считывание</string>
+
+
+    <string name="no_permission_album">Нам нужно ваше разрешение WRITE_EXTERNAL_STORAGE, чтобы показывать ваши локальные изображения здесь</string>
+    <string name="text_retry">ПОВТОРИТЬ</string>
+
+
+    <string name="no_photos">Нет фотографий в вашем телефоне</string>
+
+    <string name="rate_before_google_play">Ура!</string>
+    <string name="rate_before_google_play_2">Спасибо за ваши звезды!</string>
+    <string name="rate_before_google_play_3">Пожалуйста, оцените нас на Google Play.</string>
+
+    <string name="dialog_watch_video_title">БЕСПЛАТНЫЙ ДОСТУП</string>
+    <string name="dialog_watch_video_desc">Просмотр видеорекламы может предоставить 1 возможность бесплатного доступа. Воспроизвести видео сейчас?</string>
+    <string name="image_not_found_error">Ошибка 404</string>
+    <string name="image_not_found_error_tips">Изображение не найдено</string>
+    <string name="searching_for_faces">выполняется поиск лиц</string>
+    <string name="search_complete">поиск завершен</string>
+    <string name="poster_app_desc">Исследуйте и получайте удовольствие</string>
+    <string name="poster_result_title_gender_male">Мужская версия меня</string>
+    <string name="poster_result_desc_gender_male">Посмотрите на свою версию в виде человека противоположного пола. Найдите Magikoly на Google Play</string>
+    <string name="poster_result_title_gender_female">Женская версия меня</string>
+    <string name="poster_result_desc_gender_female">Посмотрите на свою версию в виде человека противоположного пола. Найдите Magikoly на Google Play</string>
+    <string name="poster_result_title_aging">Мое лицо после 50 лет</string>
+    <string name="poster_result_desc_aging">Изучите свой будущий облик и многое другое. Найдите Magikoly на Google Play</string>
+    <string name="poster_result_title_ethnicity">Корни этноса в моих генах</string>
+    <string name="poster_result_desc_ethnicity">Исследуйте тайны, скрытые в вашей крови. Найдите Magikoly на Google Play</string>
+    <string name="poster_gp_desc">Найдите %1$s на Google Play</string>
+    <string name="layout_purchase_trial_count_text">10 бесплатных возможностей анализа каждый день, обновите до полной версии или повторите попытку завтра ^^</string>
+    <string name="layout_purchase_watch_video">Посмотрите видео,</string>
+    <string name="layout_purchase_one_time_access">чтобы получить 1-кратный доступ</string>
+    <string name="layout_purchase_upgrade">Обновите, чтобы разблокировать</string>
+    <string name="layout_purchase_upgrade_full_version">Обновите до полной версии и воспользуйтесь дополнительными функциями.</string>
+    <string name="discovery_online_result">Онлайн-результаты</string>
+    <string name="discovery_poplur_search">Популярные поисковые запросы</string>
+    <string name="discovery_search_hint">Введите имя и ищите онлайн</string>
+    <string name="confirm_exit">Фото еще не сохранено(-ы), вы уверены, что хотите выйти без сохранения результатов?</string>
+    <string name="permission_tip_write_deny">Нам нужно ваше разрешение WRITE_EXTERNAL_STORAGE, чтобы отфильтровать фотографии вашего лица и показать их здесь</string>
+    <string name="no_photo_btn_album">сделайте селфи сейчас</string>
+
+    <string name="load_more">Проведите вверх, чтобы загрузить больше</string>
+    <string name="load_error">:( Вот те на. Ошибка загрузки ...</string>
+    <string name="load_finish">Больше нет данных</string>
+    <string name="power_by_bing">При поддержке Bing</string>
+
+    <string name="camera_error_tip">При подключении к камере произошла ошибка</string>
+    <string name="feedback_email_empty">Ой! Не забудьте оставить свой адрес электронной почты, чтобы мы могли связаться с вам относительно решения проблемы.</string>
+    <string name="error">Ошибка</string>
+
+    <string name="effects">эффектов</string>
+    <string name="beauty">Красота</string>
+    <string name="analysis">Анализ</string>
+    <string name="fragment_baby_title_female">Наша дочь</string>
+    <string name="fragment_baby_title_male">Наш сын</string>
+    <string name="fragment_baby_name_dad">ПАПА</string>
+    <string name="fragment_baby_name_mom">МАМА</string>
+    <string name="poster_baby_title">Наш милый ребенок!</string>
+    <string name="poster_baby_text_bottom1">Предскажите облик своего будущего ребенка</string>
+    <string name="poster_gp_desc_baby">Поиск <font color="#ffe507">Magikoly</font> на Google Play</string>
+    <string name="baby_father_gender_fail">На фотографии отсутствует мужчина</string>
+    <string name="baby_father_gender_fail_desc">Сфотографируйте еще раз или загрузите другую фотографию, а также убедитесь, что на ней изображен мужчина.</string>
+    <string name="baby_mother_gender_fail">На фотографии отсутствует женщина</string>
+    <string name="baby_mother_gender_fail_desc">Сфотографируйте еще раз или загрузите другую фотографию, а также убедитесь, что на ней изображена женщина.</string>
+
+    <string name="loading_for_aging_tip">Состаривание вашего лица...</string>
+    <string name="loading_for_gender_tip">Смена вашего пола...</string>
+    <string name="loading_for_ethnicity_tip">Анализ вашей расы...</string>
+    <string name="loading_for_baby_tip">Создание облика вашего ребенка...</string>
+    <string name="inner_pick_take_photo">Сфотографировать</string>
+    <string name="inner_pick_album">Загрузить из галереи</string>
+    <string name="inner_pick_search_online">Искать фотографии знаменитостей в Интернете</string>
+    <string name="inner_pick_title">Сделайте или выберите фотографию вашего партнера</string>
+    <string name="loading_for_beauty_tip">Украшение вашего лица</string>
+    <string name="camera_launching">Запуск Камеры красоты...</string>
+    <string name="subscribe_back_toast">Ещё раз нажмите кнопку "назад", чтобы выйти из приложения</string>
+    <string name="discovery_guide_popup_text">Находите фото \nлюбимых звезд здесь ~</string>
+    <string name="premium">Премиум</string>
+
+    <string name="rate_five_star_title_v2">БЕСПЛАТНЫЙ ДОСТУП</string>
+    <string name="rate_five_star_content_v2"><b>Поставьте нам оценку</b>в Play Store может получить<b>1 день бесплатного доступа.</b></string>
+    <string name="rate_five_star_btn_v2">Перейдите, чтобы оценить нас</string>
+    <string name="rate_five_star_title">Разблокируйте свой отчет БЕСПЛАТНО!</string>
+    <string name="rate_five_star_content">Поставьте 5-звездочную оценку в Google Play\n, чтобы получать все отчеты бесплатно в течение 1 дня!</string>
+    <string name="rate_five_star_btn">Оцените нас 5 звездами!</string>
+    <string name="rate_five_star_unlock_up">Оцените нас 5 звездами!</string>
+    <string name="rate_five_star_unlock_up_v2">Поставьте оценку и</string>
+    <string name="rate_five_star_unlock_down_v2">получите 1 день бесплатного доступа</string>
+    <string name="rate_five_star_unlock_down">и получите 1 день бесплатно</string>
+    <string name="rate_free_toast_text">Всего 1 шаг, чтобы получить БЕСПЛАТНЫЙ VIP-статус!</string>
+    <string name="now">Сейчас</string>
+    <string name="latest_year">Через 50 лет</string>
+    <string name="loading_for_child_tip">Делаем ваше лицо похожим на детское</string>
+    <string name="child_mirror">Детское лицо</string>
+    <string name="big_eyes">Больше глаза</string>
+    <string name="face_shape">Худое лицо</string>
+    <string name="whitening">Осветление</string>
+    <string name="smoother">Гладкая кожа</string>
+    <string name="loading_for_art_filter_tip">Применение фильтра…</string>
+    <string name="loading_seconds">(Это занимает около 2–3 секунд)</string>
+    <string name="purchase_backhome_title">Сделать/загрузить фото</string>
+    <string name="purchase_backhome_subtitle">Нажмите, чтобы поместить на главную страницу</string>
+    <string name="filter">Фильтр</string>
+    <string name="art_filter">Комичный фильтр</string>
+    <string name="five_more_free_accesses">НА 5 БОЛЬШЕ БЕСПЛАТНЫХ ДОСТУПОВ</string>
+    <string name="five_time_free_chance_content">Прекрасный шанс! Просмотр видеообъявления может получить 5-кратный бесплатный доступ к премиум-функциям. Воспроизвести видео сейчас?</string>
+    <string name="quit">Выйти</string>
+    <string name="got_five_time_free_access">Получен 5-кратный бесплатный доступ!</string>
+    <string name="main_banner_title_1">Потрясающая\nКамера старения</string>
+    <string name="main_banner_title_2">Мультфильм\nэффект</string>
+    <string name="main_banner_title_3">Интересное\nдетское лицо</string>
+    <string name="main_banner_title_4">Камера\nкрасоты</string>
+    <string name="main_banner_title_5">Абсолютно\nбез рекламы</string>
+    <string name="main_banner_title_6">Потрясающее\nкомическое искусство</string>
+    <string name="main_banner_title_7">Удивительный\nэскиз 1с</string>
+    <string name="main_banner_title_8">Элегантная\nживопись маслом</string>
+    <string name="main_banner_title_9">Более\nкрутой эффект</string>
+    <string name="permission_tip_title_upload_img">Каждое фотт, которое вы снимаете или выбираете для анализа, должно быть загружено в облако для анализа и обработки. Онр будет удалено сразу же после обработки.</string>
+    <string name="yes_leaving">Да, я выхожу</string>
+    <string name="stay_here">Остаться</string>
+    <string name="loading_for_animal_tip">Превращение в животное...</string>
+    <string name="animal">Черта животного</string>
+    <string name="video">Видео</string>
+    <string name="gif">GIF</string>
+    <string name="exporting_video">Экспорт видео…</string>
+    <string name="exporting_gif">Экспорт GIF...</string>
+    <string name="video_saved_to_gallery">Видео сохранено в галерее</string>
+    <string name="gif_saved_to_gallery">Файл GIF сохранен в галерее</string>
+    <string name="exporting_gif_please_wait">Выполняется экспорт GIF, пожалуйста, подождите.</string>
+    <string name="exporting_video_failed">Не удалось создать видео. Повторите попытку позже.</string>
+    <string name="exporting_gif_failed">Не удалось создать файл GIF. Повторите попытку позже</string>
+</resources>

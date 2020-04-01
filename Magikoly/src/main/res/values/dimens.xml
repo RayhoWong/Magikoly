@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="subscribe_close_bottom_size">35pt</dimen>
+    <dimen name="subscribe_close_bottom_margin_top">30pt</dimen>
+    <dimen name="subscribe_image_close_margin">30pt</dimen>
+    <dimen name="subscribe_image_close_size">60pt</dimen>
+    <dimen name="statusBarHeight">25dp</dimen>
+    <dimen name="setting_item_title_size">14sp</dimen>
+    <dimen name="face_report_poster_width">1080px</dimen>
+    <dimen name="face_report_poster_height">1920px</dimen>
+    <dimen name="face_report_water_mask_height">114px</dimen>
+    <dimen name="face_report_water_mask_width">288px</dimen>
+    <dimen name="subscribe_image_close_margin_top_image">50pt</dimen>
+</resources>

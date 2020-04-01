@@ -1,0 +1,289 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+def revision = project.hasProperty("revision") ? project.revision : '1000'
+def buildTypeX = project.hasProperty("buildType") ? project.buildType : 'Debug'
+def abTestUser = project.hasProperty("abTestUser") ? project.abTestUser : ''
+//订阅免费使用次数
+def subscribeTrial = "10"
+
+android {
+    compileSdkVersion var.compileSdkVersion
+    defaultConfig {
+        applicationId "magikoly.magiccamera"
+        minSdkVersion var.minSdkVersion
+        targetSdkVersion var.targetSdkVersion
+        versionCode project.hasProperty("versionCode") ? project.versionCode as int : 1000
+        versionName project.hasProperty("versionName") ? project.versionName : '1.0'
+        manifestPlaceholders = [SVN: revision, BUILD_TYPE: buildTypeX, ABTEST_USER: abTestUser]
+        multiDexEnabled true
+        multiDexKeepProguard file('multiDexKeep.pro')
+        ndk {
+            abiFilters /*"armeabi", */ "armeabi-v7a", "arm64-v8a"/*, "x86", "x86_64"*/
+        }
+        vectorDrawables.useSupportLibrary = true
+        resValue("integer", "subscribeTrialCount", subscribeTrial)
+    }
+
+    productFlavors {
+        flavorDimensions "channel"
+        none {
+            manifestPlaceholders = [CHANNEL: "230", STORE: ""]
+        }
+        baidu {
+            manifestPlaceholders = [CHANNEL: "231", STORE: "baidu"]
+        }
+        xiaomi {
+            manifestPlaceholders = [CHANNEL: "232", STORE: "xiaomi"]
+        }
+        yingyongbao {
+            manifestPlaceholders = [CHANNEL: "233", STORE: "yingyongbao"]
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs', 'jni']
+        }
+    }
+
+    aaptOptions {
+        noCompress "tflite"
+        noCompress "lite"
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+        preDexLibraries = false
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            keyAlias 'magikoly'
+            keyPassword 'magikoly123'
+            storeFile file('magikoly.jks')
+            storePassword 'magikoly123'
+            v2SigningEnabled false
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                output.outputFileName = "Magikoly-${variant.buildType.name}-v${variant.versionName}-vc${variant.versionCode}_${variant.getFlavorName()}_svn${revision}.apk"
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    //去除apk里的源码文件
+    packagingOptions {
+        exclude "com/**"
+        exclude "okhttp3/**"
+    }
+}
+
+android.buildTypes.all { buildType ->
+    task("assembleZip${buildType.name.capitalize()}") {
+        dependsOn ":app:resguard${buildType.name.capitalize()}"
+        group 'build'
+        description 'Custom task for jenkins'
+
+        doLast {
+            def android = project.extensions.android
+
+            android.applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    if (buildType.name == variant.buildType.name) {
+                        def fileName = output.outputFile.name[0..-5]
+                        def fileDir = "AndResGuard_${fileName}"
+                        def targetFileName = "${fileDir}/${fileName}_signed_7zip_aligned.apk"
+                        def targetFile = new File(output.outputFile.parent, targetFileName)
+                        def targetSize = targetFile.size()
+                        def releaseTime = new Date().format("yyyy-MM-dd hh:mm:ss", TimeZone.getTimeZone("GMT+8"))
+
+                        def outputProperties = new Properties()
+                        outputProperties.setProperty('FILE_NAME', output.outputFile.name)
+                        outputProperties.setProperty('FILE_SIZE', output.outputFile.size() as String)
+                        outputProperties.setProperty('TARGET_FILE_NAME', targetFileName)
+                        outputProperties.setProperty('TARGET_FILE_SIZE', targetSize as String)
+                        outputProperties.setProperty('VERSION_CODE', variant.versionCode as String)
+                        outputProperties.setProperty('VERSION_NAME', variant.versionName as String)
+                        outputProperties.setProperty('CHANNEL', channel as String)
+                        outputProperties.setProperty('REVISION', revision as String)
+                        outputProperties.setProperty('RELEASE_TIME', releaseTime)
+                        def outputPropertiesFile = new File(output.outputFile.parent, 'output.properties')
+                        outputProperties.store(new FileOutputStream(outputPropertiesFile), null)
+                    }
+                }
+            }
+        }
+    }
+
+    task("assembleDontZip${buildType.name.capitalize()}") {
+        dependsOn ":app:assemble${buildType.name.capitalize()}"
+        group 'build'
+        description 'Custom task for jenkins'
+
+        doLast {
+            def android = project.extensions.android
+
+            android.applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    if (buildType.name == variant.buildType.name) {
+                        def releaseTime = new Date().format("yyyy-MM-dd hh:mm:ss", TimeZone.getTimeZone("GMT+8"))
+
+                        def outputProperties = new Properties()
+                        outputProperties.setProperty('TARGET_FILE_NAME', output.outputFile.name)
+                        outputProperties.setProperty('TARGET_FILE_SIZE', output.outputFile.size() as String)
+                        outputProperties.setProperty('VERSION_CODE', variant.versionCode as String)
+                        outputProperties.setProperty('VERSION_NAME', variant.versionName as String)
+                        outputProperties.setProperty('CHANNEL', channel as String)
+                        outputProperties.setProperty('REVISION', revision as String)
+                        outputProperties.setProperty('RELEASE_TIME', releaseTime)
+
+                        def outputPropertiesFile = new File(output.outputFile.parent, 'output.properties')
+                        outputProperties.store(new FileOutputStream(outputPropertiesFile), null)
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 压缩包体
+apply plugin: 'AndResGuard'
+
+andResGuard {
+    mappingFile = null
+    use7zip = true
+    useSign = true
+    keepRoot = true
+    // 所有resource都不做混淆
+    whiteList = ["magikoly.magiccamera.R.anim.*",
+                 "magikoly.magiccamera.R.array.*",
+                 "magikoly.magiccamera.R.drawable.*",
+                 "magikoly.magiccamera.R.layout.*",
+                 "magikoly.magiccamera.R.raw.*",
+                 "magikoly.magiccamera.R.attr.*",
+                 "magikoly.magiccamera.R.xml.*",
+                 "magikoly.magiccamera.R.string.*",
+                 "magikoly.magiccamera.R.style.*",
+                 "magikoly.magiccamera.R.bool.*",
+                 "magikoly.magiccamera.R.color.*",
+                 "magikoly.magiccamera.R.dimen.*",
+                 "magikoly.magiccamera.R.id.*",
+                 "magikoly.magiccamera.R.integer.*",
+                 "magikoly.magiccamera.R.styleable.*",
+    ]
+    compressFilePattern = [
+            "*.png",
+            "*.jpg",
+            "*.jpeg",
+            "*.gif",
+            "resources.arsc"
+    ]
+    sevenzip {
+        artifact = 'com.tencent.mm:SevenZip:1.2.15'
+//        path = "E:\\tools\\7zip\\7-Zip\\7z.exe"
+        path = "C:\\Program Files\\7-Zip\\7z.exe"
+//        path = "/usr/bin/7za"
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':MagikolyLib')
+    api project(path: ':beautyfacelib')
+    api project(path: ':stasm')
+
+    api name: 'pie-release', ext: 'aar'
+
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation lib.design
+    implementation lib.appcompatV7
+    implementation lib.cardviewV7
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'me.yokeyword:fragmentation:1.3.6'
+    //google service
+    implementation lib.googleServiceAds
+    implementation lib.googleServiceBase
+    implementation 'com.squareup.okhttp3:okhttp:3.12.1'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.amazonaws:aws-android-sdk-s3:2.12.1'
+    implementation('com.amazonaws:aws-android-sdk-mobile-client:2.12.1@aar') { transitive = true }
+    implementation('com.amazonaws:aws-android-sdk-auth-userpools:2.12.1@aar') { transitive = true }
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    kapt 'com.github.bumptech.glide:compiler:4.8.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.yqritc:android-scalablevideoview:1.0.4'
+//    implementation 'com.guo.android_extend:android-extend:1.0.6'
+
+//    implementation("com.cs.bd.subscribe:subscribe-cs-release:1.8.3.173758", {
+//        exclude group: 'com.cs.bd.commerce', module: 'util'
+//        exclude group: 'com.cs.bd.subscribe', module: 'official-style-release'
+//        exclude group: 'com.cs.bd.subscribe', module: 'official-style-debug'
+//    })
+    implementation 'com.cs.bd.compatapi:cs:1.0.0'
+    implementation 'com.facebook.android:audience-network-sdk:5.2.0'
+
+    implementation lib.googleFirebaseCore
+    implementation 'com.google.firebase:firebase-ml-vision:20.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision-face-model:17.0.2'
+
+    implementation('com.mopub:mopub-sdk:4.18.0@aar') {
+        exclude module: 'moat-mobile-app-kit'
+        exclude module: 'libAvid-mopub'
+        transitive = true
+    }
+    implementation 'com.google.ads.mediation:mopub:4.20.0.0'
+    implementation 'com.gomo.commons:gomo-security-sdk:1.0.0.RELEASE'
+
+    implementation 'com.liulishuo.filedownloader:library:1.7.6'
+    implementation "com.applovin:applovin-sdk:9.9.1"
+
+    implementation('com.alibaba.android:ultraviewpager:1.0.7.7@aar') {
+        transitive = true
+    }
+
+    implementation 'org.tensorflow:tensorflow-android:1.13.1'
+
+//    implementation  'com.umeng.umsdk:analytics:8.1.3'
+//    implementation  'com.umeng.umsdk:common:2.1.0'
+
+    implementation 'com.tencent.bugly:crashreport:latest.release'
+    implementation 'com.tencent.bugly:nativecrashreport:latest.release'
+
+    implementation (name: 'open_ad_sdk', ext: 'aar')
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.6'
+}
+
+apply plugin: 'com.google.gms.google-services'
+task copySrc(type: Exec) {
+    workingDir '../'
+    //on windows:
+    commandLine 'cmd', "/c", 'copy.bat'
+}

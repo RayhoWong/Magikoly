@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:translationY="-8dp">
+
+
+        <FrameLayout
+            android:id="@+id/data_container"
+            android:layout_width="324dp"
+            android:layout_height="417dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.4"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ethnicity_result_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <com.glt.magikoly.function.ethnicity.polygon.PolygonChartLayout
+                    android:id="@+id/ethnicity_chart_layout"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="331dp">
+
+                </com.glt.magikoly.function.ethnicity.polygon.PolygonChartLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <com.glt.magikoly.view.RoundedImageView
+            android:padding="7dp"
+            android:id="@+id/ethnicity_photo"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ethnicity_result_icon"
+            android:scaleType="centerCrop"
+            android:src="@drawable/app_icon"
+            app:riv_border_width="0dp"
+            app:riv_oval="true"
+
+            app:layout_constraintLeft_toLeftOf="@id/data_container"
+            app:layout_constraintRight_toRightOf="@id/data_container"
+            app:layout_constraintTop_toTopOf="@id/data_container"
+            app:layout_constraintBottom_toTopOf="@id/data_container"
+            />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/poster_water_mask"
+            android:layout_width="96dp"
+            android:layout_height="38dp"
+            app:srcCompat="@drawable/ic_water_mask"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginEnd="18dp"
+            app:layout_constraintRight_toRightOf="@+id/data_container"
+            app:layout_constraintBottom_toBottomOf="@+id/data_container"
+            android:scaleType="fitXY"/>
+    </android.support.constraint.ConstraintLayout>
+
+    <ViewStub
+        android:id="@+id/face_detach_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

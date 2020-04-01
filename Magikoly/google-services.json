@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "479405443578",
+    "firebase_url": "https://magikoly-e67ee.firebaseio.com",
+    "project_id": "magikoly-e67ee",
+    "storage_bucket": "magikoly-e67ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479405443578:android:5e58e11bd0e47082",
+        "android_client_info": {
+          "package_name": "faceapp.magikoly.exploreandhavefun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479405443578-vnghtcotbti746rqpbldbvue2n88codq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb7eK9MBwWsJ-f73adlMw-4kmSVBMtypI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479405443578-vnghtcotbti746rqpbldbvue2n88codq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479405443578:android:8f1d3a94c757d97259fc43",
+        "android_client_info": {
+          "package_name": "magikoly.magiccamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479405443578-vnghtcotbti746rqpbldbvue2n88codq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb7eK9MBwWsJ-f73adlMw-4kmSVBMtypI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479405443578-vnghtcotbti746rqpbldbvue2n88codq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

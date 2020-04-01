@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Magikoly</string>
+    <string name="splash_resources_name">subscribe_splash_resources_it.json</string>
+
+    <string name="takephoto_desc_ethnicity">Scatta una foto e assicurati che il tuo viso \n sia proprio al centro dell\'inquadratura</string>
+    <string name="subscribe_close_bottom_long_text">Non voglio questa offerta e non voglio provare Scatto invecchiamento, Baby Predictor ecc.</string>
+    <string name="subscribe_close_bottom_text">No, grazie</string><!--种族列表-->
+    <string name="function_ethnicity_white">Bianco</string>
+    <string name="function_ethnicity_black">Nero</string>
+    <string name="function_ethnicity_other">Altro</string>
+    <string name="function_ethnicity_latino">Latino</string>
+    <string name="function_ethnicity_spanish">Mediorientale</string>
+    <string name="function_ethnicity_asian">Asiatico</string>
+
+    <string name="save_to_gallery">Salva nella galleria</string>
+    <string name="ok">Ok</string><!--评分弹框-->
+    <string name="function_rate_text">Cosa ne pensi di Magikoly?</string>
+    <string name="rate_five_star_toast_text">Una valutazione a 5 stelle ci incoraggia a fare meglio XD.</string>
+    <string name="dialog_rate_ask_title">Scusate…</string>
+    <string name="dialog_rate_ask_content">Potresti darci un feedback?</string>
+    <string name="cancel">Annulla</string>
+    <string name="give_feedback">Fornisci feedback</string>
+
+
+    <string name="unclear_face">Viso poco chiaro</string>
+    <string name="face_detect_fail">Impossibile riconoscere il volto</string>
+    <string name="face_detect_fail_tips">Per favore, prendi o scegli un\'altra immagine.</string>
+    <string name="network_error">Errore di rete</string>
+    <string name="network_error_tips">Controlla la rete e riprova.</string>
+    <string name="unknown_error">Errore sconosciuto</string>
+    <string name="unknown_error_tips">Spiacenti, si è verificato un errore sconosciuto: riprova.</string>
+    <string name="identification_error">Errore di identificazione</string>
+    <string name="error_code_1">Codice di errore: 01</string>
+    <string name="error_code_2">Codice di errore: 02</string>
+    <string name="error_code_3">Codice di errore: 03</string>
+    <string name="error_code_4">Codice di errore: 04</string>
+
+
+    <string name="get_my_result">Controlla il mio risultato</string>
+
+
+    <string name="save_report_success">Immagine salvata nella galleria</string>
+    <string name="save_report_failed">Impossibile salvare l\'immagine, riprova più tardi</string>
+
+
+    <string name="setting_item_upgrade">Aggiorna alla versione completa</string>
+    <string name="setting_item_privacy_policy">Politica sulla privacy</string>
+    <string name="setting_item_service_agreement">Condizioni di servizio</string>
+    <string name="setting_item_feedback">Feedback</string>
+    <string name="feedback_detail_hint">Descrivere il problema in dettaglio :)</string>
+    <string name="feedback_email_hint">Indirizzo e-mail</string>
+    <string name="feedback_submit">Invia</string>
+    <string name="feedback_email_error">Oh oh. È richiesto un indirizzo e-mail valido.</string>
+    <string name="feedback_email_detail_empty_error">Dicci il problema che possiamo risolverti meglio.</string>
+    <string name="feedback_submit_success">Il tuo feedback è molto importante per noi. Verificheremo al più presto.</string>
+    <string name="feedback_submit_fail">Oh oh. Connessione non riuscita. Riprova più tardi.</string>
+    <string name="feedback_uploading">Caricamento...</string>
+    <string name="permission_tip_camera">È necessario il tuo permesso per acquisire immagini IMAGE_CAPTURE per l\'analisi.</string>
+    <string name="permission_tip_camera_never">È necessario il tuo permesso per acquisire immagini IMAGE_CAPTURE. Puoi farlo nelle impostazioni di sistema.</string>
+    <string name="permission_tip_write">È necessario il tuo permesso WRITE_EXTERNAL_STORAGE per salvare l\'immagine nell\'album.</string>
+    <string name="permission_tip_write_never">È necessario il tuo permesso WRITE_EXTERNAL_STORAGE per filtrare foto del viso e mostarle qui. Puoi farlo nelle impostazioni di sistema.</string>
+    <string name="permission_tip_write_save_never">È necessario il tuo permesso WRITE_EXTERNAL_STORAGE per salvare le immagini nell\'album. Puoi farlo nelle impostazioni di sistema.</string>
+    <string name="permission_tip_write_never_album">È necessario il tuo permesso WRITE_EXTERNAL_STORAGE per mostrare le tue immagini locali qui. Puoi farlo nelle impostazioni di sistema.</string>
+
+
+    <string name="subscribe_gp_connection_error">Impossibile connettersi a Google Play, riprova più tardi.</string>
+    <string name="subscribe_network_error">Rete non disponibile, riprova dopo la connessione.</string>
+
+
+    <string name="faces">Visi</string>
+    <string name="album">Album</string>
+    <string name="discovery">Celebrità</string>
+    <string name="aging_camera">Macch.foto invec</string>
+    <string name="gender_swap">Cambio sesso</string>
+    <string name="ethnicity_analy">Analisi razza</string>
+    <string name="loading">Caricamento</string>
+
+
+    <string name="string_photos">Foto</string>
+
+    <string name="face_album_choose_image">Scegli immagine</string>
+    <string name="takephoto_local">Locale</string>
+    <string name="takephoto_explore">Esplora</string>
+    <string name="multi_face_desc">Più visi riconosciuti, \nsceglierne uno.</string>
+    <string name="album_detail_title">Tutte le foto</string>
+    <string name="take_photo">Fare foto</string>
+    <string name="no_face_photo">Nessuna foto con il viso,|nora fai un selfie</string>
+    <string name="album_take_photo">fai un selfie adesso</string>
+
+
+    <string name="not_read_permission">autorizzazione non letta</string>
+
+
+    <string name="no_permission_album">È necessario il tuo permesso WRITE_EXTERNAL_STORAGE per mostrare qui le tue immagini locali.</string>
+    <string name="text_retry">RIPROVA</string>
+
+
+    <string name="no_photos">Nessuna foto nel tuo telefono</string>
+
+    <string name="rate_before_google_play">Evviva!</string>
+    <string name="rate_before_google_play_2">Grazie per le tue stelle!</string>
+    <string name="rate_before_google_play_3">Fornire una valutazione sui Google Play.</string>
+
+    <string name="dialog_watch_video_title">ACCESSO GRATUITO</string>
+    <string name="dialog_watch_video_desc">Guarda un annuncio video e ottieni un accesso gratuito volta. Riproduci video ora?</string>
+    <string name="image_not_found_error">Errore 404</string>
+    <string name="image_not_found_error_tips">Immagine non trovata</string>
+    <string name="searching_for_faces">ricerca di volti</string>
+    <string name="search_complete">ricerca completata</string>
+    <string name="poster_app_desc">Esplora e divertiti</string>
+    <string name="poster_result_title_gender_male">La versione maschile di me</string>
+    <string name="poster_result_desc_gender_male">Esplora la versione del sesso opposto di te stesso. Cerca Magikoly in Google Play</string>
+    <string name="poster_result_title_gender_female">La versione femminile di me</string>
+    <string name="poster_result_desc_gender_female">Esplora la versione del sesso opposto di te stesso. Cerca Magikoly in Google Play</string>
+    <string name="poster_result_title_aging">Il mio viso dopo 50 anni</string>
+    <string name="poster_result_desc_aging">Esplora il tuo aspetto futuro e altro ancora. Cerca Magikoly in Google Play</string>
+    <string name="poster_result_title_ethnicity">Sonni etnici nel mio gene</string>
+    <string name="poster_result_desc_ethnicity">Esplora i segreti nel tuo sangue. Cerca Magikoly in Google Play</string>
+    <string name="poster_gp_desc">Cerca %1$s in Google Play</string>
+    <string name="layout_purchase_trial_count_text">10 opportunità di analisi gratuite ogni giorno, aggiornare alla versione completa o riprovare domani^^</string>
+    <string name="layout_purchase_watch_video">Guarda un video</string>
+    <string name="layout_purchase_one_time_access">per ottenere l\'accesso 1 volta</string>
+    <string name="layout_purchase_upgrade">Aggiorna per sbloccare</string>
+    <string name="layout_purchase_upgrade_full_version">Aggiornate alla versione completa e godetevi le funzionalità avanzate.</string>
+    <string name="discovery_online_result">Risultati online</string>
+    <string name="discovery_poplur_search">Ricerche alla moda</string>
+    <string name="discovery_search_hint">Inserisci un nome e cerca online</string>
+    <string name="confirm_exit">Le foto non sono ancora salvate, sei sicuro di voler uscire senza salvare i risultati?</string>
+    <string name="permission_tip_write_deny">È necessario il permesso WRITE_EXTERNAL_STORAGE per filtrare le foto del tuo viso e mostrarle qui</string>
+    <string name="no_photo_btn_album">fai un selfie adesso</string>
+
+    <string name="load_more">Scorri verso l\'alto per caricare altro</string>
+    <string name="load_error">:( Oh, no! Errore di caricamento...</string>
+    <string name="load_finish">"Non vi sono altri dati";</string>
+    <string name="power_by_bing">Potenza di Bing</string>
+
+    <string name="camera_error_tip">Si è verificato un errore durante il collegamento alla fotocamera</string>
+    <string name="feedback_email_empty">Ops! Ricordati di lasciare l\'indirzzo per consentirci di seguire il problema.e-mail</string>
+    <string name="error">Errore</string>
+
+    <string name="loading_for_aging_tip">Invecchiamento del tuo viso</string>
+    <string name="loading_for_gender_tip">Cambio sesso</string>
+    <string name="loading_for_ethnicity_tip">Analisi etnica</string>
+    <string name="loading_for_baby_tip">Previsione del tuo bambino</string>
+    <string name="loading_for_beauty_tip">Abbellire la tua faccia</string>
+    <string name="effects">Effetti</string>
+    <string name="beauty">Bellezza</string>
+    <string name="analysis">Analisi</string>
+    <string name="baby_prediction">Sintesi bambino</string>
+    <string name="fragment_baby_name_dad">PAPÀ</string>
+    <string name="fragment_baby_name_mom">MAMMA</string>
+    <string name="fragment_baby_title_male">Nostro figlio</string>
+    <string name="fragment_baby_title_female">Nostra figlia</string>
+    <string name="inner_pick_title">Scatta o scegli una foto del tuo partner</string>
+    <string name="inner_pick_take_photo">Scatta una foto</string>
+    <string name="inner_pick_album">Carica dall\'album</string>
+    <string name="inner_pick_search_online">Cerca online le foto delle celebrità</string>
+    <string name="camera_launching">avvio della fotocamera…</string>
+    <string name="subscribe_back_toast">Premere nuovamente il pulsante Indietro per uscire dall\'app</string>
+    <string name="discovery_guide_popup_text">Trova foto di \nstar preferite qui ~</string>
+    <string name="premium">Premium</string>
+
+    <string name="rate_five_star_title">Sblocca il tuo report GRATIS!!</string>
+    <string name="rate_five_star_content">Dai una valutazione a 5 stelle su Google Play\n per ottenere report gratuiti per 1 giorno!</string>
+    <string name="rate_five_star_btn">Valuta 5 stelle</string>
+    <string name="rate_five_star_unlock_up">Valuta 5 stelle</string>
+    <string name="rate_five_star_unlock_down">per ottenere 1 giorno gratis</string>
+    <string name="rate_free_toast_text">Manca solo un passaggio per ottenere l\'accesso GRATUITO!!</string>
+
+    <string name="rate_five_star_title_v2">ACCESSO GRATUITO</string>
+    <string name="rate_five_star_content_v2">Lasciaci una valutazione su Play Store e otterrai un giorno di accesso gratuito.</string>
+    <string name="rate_five_star_btn_v2">Vai alla valutazione</string>
+    <string name="rate_five_star_unlock_up_v2">Rilascia una valutazione</string>
+    <string name="rate_five_star_unlock_down_v2">per ottenere un giorno di accesso gratuito</string>
+    <string name="now">Adesso</string>
+    <string name="latest_year">50 anni dopo</string>
+    <string name="loading_for_child_tip">Rendi il tuo viso da neonato...</string>
+    <string name="child_mirror">Viso baby</string>
+    <string name="big_eyes">Occhi grandi</string>
+    <string name="face_shape">Viso sottile</string>
+    <string name="whitening">Schiarimento</string>
+    <string name="smoother">Pelle liscia</string>
+    <string name="loading_for_art_filter_tip">Applicazione del filtro...</string>
+    <string name="loading_seconds">(Ci vogliono circa 2-3 secondi)</string>
+    <string name="purchase_backhome_title">Fare / caricare una foto</string>
+    <string name="purchase_backhome_subtitle">occare per tornare alla home page</string>
+    <string name="filter">Filtro</string>
+    <string name="art_filter">Filtro Comico</string>
+    <string name="five_more_free_accesses">5 ALTRI ACCESSI GRATUITI</string>
+    <string name="five_time_free_chance_content">Ottima occasione! Guardareun annuncio video potrebbe farti ottenere un accesso gratuito per 5 volte alle funzioni premium. Riproduci un video ora?</string>
+    <string name="quit">Esci</string>
+    <string name="got_five_time_free_access">Hai ottenuto un accesso gratuito per 5 volte!</string>
+    <string name="main_banner_title_1">Fotocamera invecchiamento\nincredibile</string>
+    <string name="main_banner_title_2">Effetto\nCartone Animato</string>
+    <string name="main_banner_title_3">Filtro Viso Bambino\nInteressante</string>
+    <string name="main_banner_title_4">Potente Fotocamera\nPer la Bellezza</string>
+    <string name="main_banner_title_5">Assolutamente\nNessuna Pubblicità</string>
+    <string name="main_banner_title_6">Arte Comica\nSbalorditiva</string>
+    <string name="main_banner_title_7">Schizzo 1s\nSorprendente</string>
+    <string name="main_banner_title_8">Elegante\nPittura a Olio</string>
+    <string name="main_banner_title_9">Effetto Più\nInteressante</string>
+    <string name="permission_tip_title_upload_img">Ogni immagine acquisita o selezionata per l\'analisi deve essere caricata sul cloud per l\'analisi e l\'elaborazione. Sarà eliminata subito dopo l\'elaborazione.</string>
+    <string name="yes_leaving">Si, voglio uscire</string>
+    <string name="stay_here">Rimango</string>
+    <string name="loading_for_animal_tip">Trasformazione in animale...</string>
+    <string name="animal">Animale</string>
+    <string name="video">Video</string>
+    <string name="gif">GIF</string>
+    <string name="exporting_video">Esportare un video...</string>
+    <string name="exporting_gif">Esportare GIF...</string>
+    <string name="video_saved_to_gallery">Video salvato nella galleria</string>
+    <string name="gif_saved_to_gallery">GIF salvata nella galleria</string>
+    <string name="exporting_gif_please_wait">Converto GIF, attendere prego</string>
+    <string name="exporting_video_failed">Impossibile generare il video, riprovare</string>
+    <string name="exporting_gif_failed">Impossibile generare la GIF, riprovare</string>
+</resources>

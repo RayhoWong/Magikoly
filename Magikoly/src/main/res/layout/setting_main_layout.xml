@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <include layout="@layout/include_face_common_toolbar"/>
+
+    <com.glt.magikoly.function.main.FaceBackground
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:imgTopLeft="@drawable/setting_bg_top_left"
+            app:imgBottomRight="@drawable/setting_bg_bottom_right"/>
+
+
+    <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/setting_item_upgrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:setting_image="@drawable/setting_vip"
+            app:setting_title="@string/setting_item_upgrade"
+            android:layout_marginTop="88dp"/>
+
+
+    <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/setting_item_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/setting_item_upgrade"
+            app:setting_image="@drawable/settiing_feedback"
+            app:layout_goneMarginTop="88dp"
+            app:setting_title="@string/setting_item_feedback"/>
+
+
+    <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/setting_item_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/setting_item_feedback"
+            app:setting_image="@drawable/setting_service_agreement"
+            app:setting_title="@string/setting_item_service_agreement"/>
+
+
+    <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/setting_item_privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/setting_item_service"
+            app:setting_image="@drawable/setting_privacy_policy"
+            app:setting_title="@string/setting_item_privacy_policy"
+            app:setting_show_bottom_line="false"/>
+
+
+</android.support.constraint.ConstraintLayout>

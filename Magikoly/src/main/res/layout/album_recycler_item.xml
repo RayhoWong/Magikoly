@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="96dp">
+
+    <com.glt.magikoly.function.main.album.view.RoundStackImageView
+            android:id="@+id/album_item_image"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            app:radius_leftTop="15dp"
+            app:radius_leftBottom="15dp"
+            android:layout_width="86dp"
+            android:layout_height="80dp"/>
+
+    <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/album_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/album_item_tv"
+                android:maxLines="1"
+                android:textColor="#21004d"
+                android:fontFamily="sans-serif-medium"
+                android:text="All Photos"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/album_item_num"
+                android:maxLines="1"
+                android:text="6513 photos"
+                android:textColor="#6e6d70"
+                android:layout_below="@+id/album_item_tv"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_marginRight="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_album_next"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+</RelativeLayout>

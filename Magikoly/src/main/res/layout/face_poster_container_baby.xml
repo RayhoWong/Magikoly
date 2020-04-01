@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/face_report_poster_width"
+    android:layout_height="@dimen/face_report_poster_height">
+
+
+    <ImageView
+        android:id="@+id/poster_background"
+        android:layout_width="@dimen/face_report_poster_width"
+        android:layout_height="@dimen/face_report_poster_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_baby"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.glt.magikoly.view.RoundedImageView
+        android:id="@+id/poster_app_icon"
+        android:layout_width="144px"
+        android:layout_height="144px"
+        android:layout_marginStart="72px"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="72px"
+        android:scaleType="centerCrop"
+        android:src="@drawable/app_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_corner_radius="6dp" />
+
+
+    <TextView
+        android:id="@+id/poster_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36px"
+        android:layout_marginLeft="36px"
+        android:fontFamily="sans-serif-medium"
+        android:padding="0dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        app:layout_constraintLeft_toRightOf="@+id/poster_app_icon"
+        app:layout_constraintTop_toTopOf="@+id/poster_app_icon" />
+
+    <TextView
+        android:id="@+id/poster_app_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36px"
+        android:layout_marginLeft="36px"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/poster_app_desc"
+        android:textColor="@color/white"
+        android:textSize="36px"
+        app:layout_constraintBottom_toBottomOf="@+id/poster_app_icon"
+        app:layout_constraintLeft_toRightOf="@+id/poster_app_icon" />
+
+
+    <TextView
+        android:id="@+id/poster_result_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72px"
+        android:layout_marginLeft="72px"
+        android:layout_marginTop="300px"
+        android:layout_marginEnd="72px"
+        android:layout_marginRight="72px"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:shadowColor="#b3500f58"
+        android:shadowDy="6.0"
+        android:shadowRadius="18.0"
+        android:text="@string/poster_baby_title"
+        android:textColor="@color/white"
+        android:textSize="84px"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/poster_result_image"
+        android:layout_width="834px"
+        android:layout_height="972px"
+        android:layout_marginTop="564px"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="378px"
+        android:layout_marginTop="438px"
+        android:src="@drawable/pic_decoration1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.glt.magikoly.view.RoundedImageView
+        android:id="@+id/poster_original_image_left"
+        android:layout_width="384px"
+        android:layout_height="378px"
+        android:layout_marginLeft="48px"
+        android:layout_marginTop="438px"
+        android:padding="20px"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_border_width="0dp"
+        app:riv_oval="true" />
+
+    <com.glt.magikoly.view.RoundedImageView
+        android:id="@+id/poster_original_image_right"
+        android:layout_width="384px"
+        android:layout_height="378px"
+        android:layout_marginTop="438px"
+        android:layout_marginRight="48px"
+        android:padding="20px"
+        android:scaleType="centerCrop"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_border_width="0dp"
+        app:riv_oval="true" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/poster_water_mask"
+        android:layout_width="288px"
+        android:layout_height="114px"
+        android:layout_marginEnd="55px"
+        android:layout_marginRight="55px"
+        android:layout_marginBottom="78px"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/poster_result_image"
+        app:layout_constraintRight_toRightOf="@+id/poster_result_image"
+        app:srcCompat="@drawable/ic_water_mask" />
+
+    <TextView
+        android:id="@+id/poster_result_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72px"
+        android:layout_marginLeft="72px"
+        android:layout_marginEnd="72px"
+        android:layout_marginRight="72px"
+        android:layout_marginBottom="48px"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:shadowColor="#e620155f"
+        android:shadowDy="6.0"
+        android:shadowRadius="12.0"
+        android:text="@string/poster_baby_text_bottom1"
+        android:textColor="@color/white"
+        android:textSize="48px"
+        app:layout_constraintBottom_toTopOf="@+id/poster_gp_desc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/poster_gp_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72px"
+        android:layout_marginLeft="72px"
+        android:layout_marginEnd="72px"
+        android:layout_marginRight="72px"
+        android:layout_marginBottom="120px"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:shadowColor="#e620155f"
+        android:shadowDy="6.0"
+        android:shadowRadius="12.0"
+        android:text="@string/poster_gp_desc_baby"
+        android:textColor="@color/white"
+        android:textSize="39px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--主界面-->
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/img_top_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_top_bg"
+            android:transitionName="@string/img_top_bg"/>
+
+        <include layout="@layout/include_face_common_toolbar"/>
+
+        <com.glt.magikoly.function.main.BottomBar
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"/>
+
+        <FrameLayout
+            android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_bar"
+            android:layout_below="@id/face_common_toolbar"/>
+
+        <RelativeLayout
+            android:id="@+id/banner_ad_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottom_bar"
+            android:visibility="gone"
+            >
+
+            <FrameLayout
+                android:id="@+id/banner_ad_content_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"/>
+
+            <ImageView
+                android:id="@+id/banner_ad_btn_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/banner_ad_content_container"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ad_icon_close"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!--侧滑界面-->
+    <LinearLayout
+        android:id="@+id/drawer_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="bottom"
+            android:paddingStart="24dp"
+            android:paddingLeft="24dp"
+            android:text="@string/app_name"
+            android:textColor="#21004d"
+            android:textSize="21sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:id="@+id/item_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:background="#1a746d7b"/>
+
+        <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/item_upgrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:setting_image="@drawable/setting_vip"
+            app:setting_title="@string/setting_item_upgrade"/>
+
+
+        <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/item_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_goneMarginTop="88dp"
+            app:setting_image="@drawable/settiing_feedback"
+            app:setting_title="@string/setting_item_feedback"/>
+
+
+        <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/item_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:setting_image="@drawable/setting_service_agreement"
+            app:setting_title="@string/setting_item_service_agreement"/>
+
+
+        <com.glt.magikoly.function.main.DrawerItemView
+            android:id="@+id/item_privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:setting_image="@drawable/setting_privacy_policy"
+            app:setting_show_bottom_line="false"
+            app:setting_title="@string/setting_item_privacy_policy"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/enter_ad_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+</android.support.v4.widget.DrawerLayout>

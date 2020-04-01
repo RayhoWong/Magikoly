@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+           tools:keep="@string/cfg_*,@integer/cfg_*"
+           tools:ignore="MissingTranslation">
+
+
+    <!--********************广告SDK—start********************-->
+    <!-- 广告13接口产品配置:产品ID、数据渠道
+  配置请找[服务器组*黄炯]
+  -->
+    <string name="cfg_commerce_cid">353</string>
+    <string name="cfg_commerce_data_channel">345</string>
+    <!--渠道号 -->
+    <string name="cfg_commerce_channel">200</string>
+
+    <!--入口ID, a.主包(默认):1 b.主题:2 -->
+    <string name="cfg_commerce_entrance_id">1</string>
+
+    <!--离线广告请求接口产品配置:product_key、access_key
+          配置请找[服务器组*黄炯]
+           -->
+    <string name="cfg_commerce_ad_request_product_key">BM8H8X18RJS00KHE6XYUABA4</string>
+    <string name="cfg_commerce_ad_request_access_key">6H570JFLZDFJ07SF35Z8D6S5GPVJQ5KW</string>
+
+
+    <!--105统计产品ID，主包和主题是分开的
+    配置请找[大数据组*刘晓宏]
+    -->
+    <integer name="cfg_commerce_statistic_id_105">440</integer>
+
+    <!--智能预加载配置, 可选, 一般只配置3个:智能预加载广告位、native抓取广告位、系统安装抓取广告位, 由梁天丞决定
+        配置请找[商业组*梁天丞]
+        -->
+        -->
+    <!--[智能预加载]智能预加载广告位，可缺省，或者(默认:-1)-->
+    <integer name="cfg_commerce_intelligent_adpos">181</integer>
+    <!--[智能预加载]GP打开Mobvista广告位，可缺省，或者(默认:-1)-->
+    <integer name="cfg_commerce_intelligent_adpos_mob">195</integer>
+    <!--[智能预加载]：新用户Mobvista广告位，可缺省，或者(默认:-1)-->
+    <integer name="cfg_commerce_intelligent_adpos_mob_new">241</integer>
+    <!--[智能预加载]：安装预点击广告位，可缺省，或者(默认:-1)-->
+    <integer name="cfg_commerce_intelligent_adpos_install_preparse">-1</integer>
+    <!--native抓取广告位-->
+    <integer name="cfg_commerce_native_presolve_request_id">388</integer>
+    <!--系统安装抓取广告位-->
+    <integer name="cfg_commerce_system_install_adpos">413</integer>
+    <!--********************广告SDK—end********************-->
+
+    <!--********************插件库—start********************-->
+    <!--是否使用输入法旧的统计sdk（输入法外的其它产品配置false）
+    -->
+    <bool name="cfg_commerce_keyboard_statistics">false</bool>
+    <!--********************插件库—end********************-->
+
+    <!--是否小号包地址-->
+    <bool name="cfg_commerce_is_new_url">true</bool>
+
+
+    <!--配置自定义的买量域名-->
+    <string name="cfg_commerce_custom_domain">http://magikoly.com</string>
+
+</resources>

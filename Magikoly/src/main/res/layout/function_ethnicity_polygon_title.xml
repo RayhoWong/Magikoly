@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="63dp"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:layout_height="63dp">
+
+    <ImageView
+            android:id="@+id/polygon_title_icon"
+            android:src="@drawable/app_icon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"/>
+
+    <TextView
+            android:textColor="@color/polygon_titleTextColor"
+            android:text="Asian"
+            android:textSize="12sp"
+            android:id="@+id/polygon_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:textColor="@color/polygon_valueTextColor"
+            android:text="65.22%"
+            android:textSize="14sp"
+            android:id="@+id/polygon_title_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

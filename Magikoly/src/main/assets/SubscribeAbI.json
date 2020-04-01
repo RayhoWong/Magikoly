@@ -1,0 +1,201 @@
+{
+  "success": true,
+  "datas": {
+    "infos": {
+      "filter_id": 8251,
+      "abtest_id": 0,
+      "cfgs": [
+        {
+          "appear_scene": "1",
+          "cfg_tb_id": 0,
+          "cfg_id": 1,
+          "subscribe_switch": "1",
+          "show_style": "0",
+          "custom_style": "1",
+          "price1": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_monthly_27.99",
+              "price_module": "1"
+            }
+          ],
+          "price2": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_yearly_96.88",
+              "price_module": "2"
+            }
+          ],
+          "price3": [],
+          "default_price": "2",
+          "default_button_effect": "1",
+          "close_button_position": "8",
+          "if_hijack_return_key": "0",
+          "if_hijack_home_key": "0",
+          "hijack_return_key": "0",
+          "user_property": "0"
+        },
+        {
+          "appear_scene": "2",
+          "cfg_tb_id": 0,
+          "cfg_id": 1,
+          "subscribe_switch": "1",
+          "show_style": "0",
+          "custom_style": "2",
+          "price1": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_yearly_96.88",
+              "price_module": "3"
+            }
+          ],
+          "price2": [],
+          "price3": [],
+          "default_price": "1",
+          "default_button_effect": "1",
+          "close_button_position": "8",
+          "if_hijack_return_key": "0",
+          "if_hijack_home_key": "0",
+          "hijack_return_key": "0",
+          "user_property": "0"
+        },
+        {
+          "appear_scene": "3",
+          "cfg_tb_id": 0,
+          "cfg_id": 1,
+          "subscribe_switch": "1",
+          "show_style": "0",
+          "custom_style": "2",
+          "price1": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_yearly_96.88",
+              "price_module": "4"
+            }
+          ],
+          "price2": [],
+          "price3": [],
+          "default_price": "1",
+          "default_button_effect": "1",
+          "close_button_position": "8",
+          "if_hijack_return_key": "0",
+          "if_hijack_home_key": "0",
+          "hijack_return_key": "0",
+          "user_property": "0"
+        },
+        {
+          "appear_scene": "4",
+          "cfg_tb_id": 0,
+          "cfg_id": 1,
+          "subscribe_switch": "1",
+          "show_style": "0",
+          "custom_style": "2",
+          "price1": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_yearly_96.88",
+              "price_module": "5"
+            }
+          ],
+          "price2": [],
+          "price3": [],
+          "default_price": "1",
+          "default_button_effect": "1",
+          "close_button_position": "8",
+          "if_hijack_return_key": "0",
+          "if_hijack_home_key": "0",
+          "hijack_return_key": "0",
+          "user_property": "0"
+        },
+        {
+          "appear_scene": "5",
+          "cfg_tb_id": 0,
+          "cfg_id": 1,
+          "subscribe_switch": "1",
+          "show_style": "0",
+          "custom_style": "1",
+          "price1": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_monthly_27.99",
+              "price_module": "1"
+            }
+          ],
+          "price2": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_yearly_96.88",
+              "price_module": "2"
+            }
+          ],
+          "price3": [],
+          "default_price": "2",
+          "default_button_effect": "1",
+          "close_button_position": "8",
+          "if_hijack_return_key": "0",
+          "if_hijack_home_key": "0",
+          "hijack_return_key": "0",
+          "user_property": "0"
+        },
+        {
+          "appear_scene": "6",
+          "cfg_tb_id": 0,
+          "cfg_id": 1,
+          "subscribe_switch": "1",
+          "show_style": "0",
+          "custom_style": "4",
+          "price1": [
+            {
+              "cfg_tb_id": 1,
+              "cfg_id": 1,
+              "price_name": "",
+              "label": "",
+              "service_type": "1",
+              "subscribe_id": "magikoly_subs_yearly_96.88",
+              "price_module": "6"
+            }
+          ],
+          "price2": [],
+          "price3": [],
+          "default_price": "1",
+          "default_button_effect": "1",
+          "close_button_position": "8",
+          "if_hijack_return_key": "0",
+          "if_hijack_home_key": "0",
+          "hijack_return_key": "0",
+          "user_property": "0"
+        }
+      ]
+    },
+    "message": "ok",
+    "status": 200
+  }
+}

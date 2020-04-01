@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Magikoly</string>
+    <string name="splash_resources_name">subscribe_splash_resources_default.json</string>
+
+    <string name="takephoto_desc_ethnicity">Take a photo and make sure your face is right in the center of the frame</string>
+    <string name="subscribe_close_bottom_long_text">I don\'t want this offer and I don\'t want to try the Aging Shutter, Baby Predictor, etc.</string>
+    <string name="subscribe_close_bottom_text">No, thanks.</string>
+
+    <!--种族列表-->
+    <string name="function_ethnicity_white">White</string>
+    <string name="function_ethnicity_black">Black</string>
+    <string name="function_ethnicity_other">Other</string>
+    <string name="function_ethnicity_latino">Latino</string>
+    <string name="function_ethnicity_spanish">Middle Eastern</string>
+    <string name="function_ethnicity_asian">Asian</string>
+
+    <string name="save_to_gallery">Save to Gallery</string>
+    <string name="ok">Ok</string>
+    <!--评分弹框-->
+    <string name="function_rate_text">What do you think of Magikoly?</string>
+    <string name="rate_five_star_toast_text">A 5-star rating encourages us doing better XD.</string>
+    <string name="dialog_rate_ask_title">Sorry…</string>
+    <string name="dialog_rate_ask_content">Would you mind giving some feedback?</string>
+    <string name="cancel">Cancel</string>
+    <string name="give_feedback">Give Feedback</string>
+
+
+    <string name="unclear_face">Unclear Face</string>
+    <string name="face_detect_fail">Failed to Recognize Face</string>
+    <string name="face_detect_fail_tips">Please take or choose another picture.</string>
+    <string name="network_error">Network Error</string>
+    <string name="network_error_tips">Please check the network status and try again.</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="unknown_error_tips">Sorry, unknown error occurred, please try again.</string>
+    <string name="identification_error">Identification Error</string>
+    <string name="error_code_1">Error code: 01</string>
+    <string name="error_code_2">Error code: 02</string>
+    <string name="error_code_3">Error code: 03</string>
+    <string name="error_code_4">Error code: 04</string>
+
+
+    <string name="get_my_result">Check my result</string>
+
+
+    <string name="save_report_success">Image saved to gallery</string>
+    <string name="save_report_failed">Failed to save image, please try again later</string>
+
+
+    <string name="setting_item_upgrade">Upgrade to Full Version</string>
+    <string name="setting_item_privacy_policy">Privacy Policy</string>
+    <string name="setting_item_service_agreement">Service Agreement</string>
+    <string name="setting_item_feedback">Feedback</string>
+    <string name="feedback_detail_hint">Please describe the problem in detail :)</string>
+    <string name="feedback_email_hint">Email Address</string>
+    <string name="feedback_submit">Submit</string>
+    <string name="feedback_email_error">Uh-oh. A valid E-mail needed.</string>
+    <string name="feedback_email_detail_empty_error">Tell us your problem that we can solve you better.</string>
+    <string name="feedback_submit_success">Your feedback is very important to us. We will check it ASAP.</string>
+    <string name="feedback_submit_fail">Uh-oh. Failed to connect. Please try again later.</string>
+    <string name="feedback_uploading">Uploading…</string>
+    <string name="permission_tip_camera">We need your IMAGE_CAPTURE permission to capture images for analysis.</string>
+    <string name="permission_tip_camera_never">We need your IMAGE_CAPTURE permission to capture images. You could open it in the system settings.</string>
+    <string name="permission_tip_write">We need your WRITE_EXTERNAL_STORAGE permission to save the image to the album.</string>
+    <string name="permission_tip_write_never">We need your WRITE_EXTERNAL_STORAGE permission to filter out photos of your face and show them here. You could open it in the system settings.</string>
+    <string name="permission_tip_write_save_never">We need your WRITE_EXTERNAL_STORAGE permission to save images to the gallery. You could open it in the system settings.</string>
+    <string name="permission_tip_write_never_album">We need your WRITE_EXTERNAL_STORAGE permission to show your local images here. You could open it in the system settings.</string>
+
+    <string name="subscribe_gp_connection_error">Unable to connect Google Play, please try again later.</string>
+    <string name="subscribe_network_error">Network unavailable, please retry after connection.</string>
+
+
+    <string name="faces">Faces</string>
+    <string name="album">Album</string>
+    <string name="discovery">Celebrities</string>
+    <string name="aging_camera">Aging Camera</string>
+    <string name="baby_prediction">Child Synthesis</string>
+    <string name="gender_swap">Gender Swap</string>
+    <string name="ethnicity_analy">Racial analysis</string>
+    <string name="loading">Loading</string>
+
+    <string name="string_photos">Photos</string>
+
+    <string name="face_album_choose_image">Choose Image</string>
+    <string name="takephoto_local">Local</string>
+    <string name="takephoto_explore">Explore</string>
+    <string name="multi_face_desc">Multiple faces recognized, \nplease choose one</string>
+    <string name="album_detail_title">All Photos</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="no_face_photo">No photos with face, \ntake a selfie now</string>
+    <string name="album_take_photo">take a selfie now</string>
+
+
+    <string name="not_read_permission">not read permission</string>
+
+
+    <string name="no_permission_album">We need your WRITE_EXTERNAL_STORAGE permission to show your local images here</string>
+    <string name="text_retry">RETRY</string>
+
+
+    <string name="no_photos">No photos in your phone</string>
+
+    <string name="rate_before_google_play">Hurray!</string>
+    <string name="rate_before_google_play_2">Thank you for your stars!</string>
+    <string name="rate_before_google_play_3">Please rate us in Google Play.</string>
+
+    <string name="dialog_watch_video_title">FREE ACCESS</string>
+    <string name="dialog_watch_video_desc">Watch a video ad could get a 1-time free access. Play a video now?</string>
+    <string name="image_not_found_error">Error 404</string>
+    <string name="image_not_found_error_tips">Image not found</string>
+    <string name="searching_for_faces">searching for faces</string>
+    <string name="search_complete">search completed</string>
+    <string name="poster_app_desc">Explore &amp; have fun</string>
+    <string name="poster_result_title_gender_male">The male version of me</string>
+    <string name="poster_result_desc_gender_male">Explore the opposite sex version of yourself.
+Search Magikoly in Google Play</string>
+    <string name="poster_result_title_gender_female">The female version of me</string>
+    <string name="poster_result_desc_gender_female">Explore the opposite sex version of yourself.
+Search Magikoly in Google Play</string>
+    <string name="poster_result_title_aging">My face after 50 years</string>
+    <string name="poster_result_desc_aging">Explore your future look and more.
+Search Magikoly in Google Play</string>
+    <string name="poster_result_title_ethnicity">Ethnic sleeps in my gene</string>
+    <string name="poster_result_desc_ethnicity">Explore secrets inside your blood.
+Search Magikoly in Google Play</string>
+    <string name="poster_gp_desc">Search %1$s in Google play</string>
+    <string name="layout_purchase_trial_count_text">10 free analysis opportunities every day, please upgrade to full version or try again tomorrow^^</string>
+    <string name="layout_purchase_watch_video">Watch Video</string>
+    <string name="layout_purchase_one_time_access">to get 1-time access</string>
+    <string name="layout_purchase_upgrade">Upgrade to Unlock</string>
+    <string name="layout_purchase_upgrade_full_version">Please Upgrade to Full Version and Enjoy Advanced Features.</string>
+    <string name="discovery_online_result">Online Results</string>
+    <string name="discovery_poplur_search">Popular Searches</string>
+    <string name="discovery_search_hint">Enter a name and search online</string>
+    <string name="confirm_exit">Photo(s) not saved yet, are you sure you want to exit without saving the result(s)?</string>
+    <string name="permission_tip_write_deny">We need your WRITE_EXTERNAL_STORAGE permission to filter out photos of your face and show them here</string>
+    <string name="no_photo_btn_album">take a selfie now</string>
+
+    <string name="load_more">Swipe up to load more</string>
+    <string name="load_error">:( Oh,dear.Loading error...</string>
+    <string name="load_finish">No more data</string>
+    <string name="power_by_bing">Power by Bing</string>
+
+    <string name="camera_error_tip">Error occurred while connecting to camera</string>
+    <string name="feedback_email_empty">Opps! Remember to leave your E-mail that we can follow the problem.</string>
+    <string name="error">Error</string>
+
+    <string name="effects">Effects</string>
+    <string name="beauty">Beauty</string>
+    <string name="analysis">Analysis</string>
+    <string name="fragment_baby_title_female">Our Daughter</string>
+    <string name="fragment_baby_title_male">Our Son</string>
+    <string name="fragment_baby_name_dad">DAD</string>
+    <string name="fragment_baby_name_mom">MOM</string>
+    <string name="poster_baby_title">Our lovely baby</string>
+    <string name="poster_baby_text_bottom1">Predict Your Future Child</string>
+    <string name="poster_gp_desc_baby">Search <font color="#ffe507">Magikoly</font> in Google Play</string>
+    <string name="baby_father_gender_fail">Not Male Photo</string>
+    <string name="baby_father_gender_fail_desc">Please take or upload another picture and make sure there\'s a man in the picture.</string>
+    <string name="baby_mother_gender_fail">Not Female Photo</string>
+    <string name="baby_mother_gender_fail_desc">Please take or upload another picture and make sure there\'s a woman in the picture.</string>
+
+    <string name="loading_for_aging_tip">Aging your face</string>
+    <string name="loading_for_gender_tip">Switching your gender</string>
+    <string name="loading_for_ethnicity_tip">Analysing your race</string>
+    <string name="loading_for_baby_tip">Compositing your baby</string>
+    <string name="inner_pick_take_photo">Take a photo</string>
+    <string name="inner_pick_album">Upload from album</string>
+    <string name="inner_pick_search_online">Search celebrities’ photo online</string>
+    <string name="inner_pick_title">Take or choose a photo of your partner</string>
+    <string name="loading_for_beauty_tip">Beautifying your face</string>
+    <string name="camera_launching">Camera Launching…</string>
+    <string name="subscribe_back_toast">Press back button again to exit the app</string>
+    <string name="discovery_guide_popup_text">Find photos of \nfavourite stars here~</string>
+    <string name="premium">Premium</string>
+
+    <string name="ad_app_desc">Learn more about yourself</string>
+    <string name="ad_button_text">download for free</string>
+    <string name="ad_title">Clash Royale - App on Google Play</string>
+    <string name="ad_desc">The Executioner’s hood was pulled a bit too low, making him almost blind. We helped him see a bit further, and sharpened his axe just enough to cut Flying Machine apart.</string>
+    <string name="skip">Skip</string>
+    <string name="rate_five_star_title_v2">FREE ACCESS</string>
+    <string name="rate_five_star_content_v2"><b>Leave us a rating</b> on the Play Store could get a <b>1-day free access.</b> </string>
+    <string name="rate_five_star_btn_v2">Go to rate us</string>
+    <string name="rate_five_star_title">Unlock your report FREE!!</string>
+    <string name="rate_five_star_content">Give 5-star rating in Google Play\n to get all report free for 1 day!</string>
+
+    <string name="rate_five_star_btn">Rate 5 stars</string>
+    <string name="rate_five_star_unlock_up">Rate 5 stars</string>
+    <string name="rate_five_star_unlock_up_v2">Leave a Rating</string>
+    <string name="rate_five_star_unlock_down_v2">to get 1-day free access</string>
+    <string name="rate_five_star_unlock_down">to get 1 day free</string>
+    <string name="rate_free_toast_text">Only 1 step left to get FREE VIP!!</string>
+
+    <string name="child_mirror">Baby Face</string>
+    <string name="loading_for_child_tip">Making your face baby-like…</string>
+
+    <string name="now">Now</string>
+    <string name="latest_year">50y Later</string>
+
+    <string name="server_busy">Server Busy</string>
+    <string name="server_busy_tips">The connection to the server is not so good, please try again.</string>
+    <string name="big_eyes">Big Eyes</string>
+    <string name="face_shape">Slim Face</string>
+    <string name="whitening">Brightening</string>
+    <string name="smoother">Smooth skin</string>
+    <string name="art_filter">Comic Filter</string>
+    <string name="filter">Filter</string>
+    <string name="loading_for_art_filter_tip">Applying filter…</string>
+    <string name="loading_seconds">(It takes about 2-3 seconds)</string>
+    <string name="purchase_backhome_title">Take / upload a photo</string>
+    <string name="purchase_backhome_subtitle">Tap to bake to home page</string>
+    <string name="five_more_free_accesses">5 MORE FREE ACCESSES</string>
+    <string name="five_time_free_chance_content">Wonderful chance! Watch a video ad now could get a 5-time free access to the premium functions. Play a video now?</string>
+    <string name="quit">Quit</string>
+    <string name="got_five_time_free_access">Got a 5-time free access!</string>
+    <string name="main_banner_title_1">Amazing\nAging Camera</string>
+    <string name="main_banner_title_2">Wonderful\nCartoon Effect</string>
+    <string name="main_banner_title_3">Interesting\nBaby Face</string>
+    <string name="main_banner_title_4">Perfect\nBeautycam</string>
+    <string name="main_banner_title_5">Absolutely\nNo Ads </string>
+    <string name="main_banner_title_6">Stunning\nComic Art</string>
+    <string name="main_banner_title_7">Surprising\n1s sketch</string>
+    <string name="main_banner_title_8">Elegant\nOil Painting</string>
+    <string name="main_banner_title_9">More\nCool Effect</string>
+
+    <string name="animal">Animal Attribute</string>
+    <string name="loading_for_animal_tip">Turning into an animal…</string>
+
+    <string name="permission_tip_title_upload_img">Every image you take or select for analysis needs to be uploaded to the cloud for analysis and processing. It will be deleted immediately after processing.</string>
+    <string name="yes_leaving">Yes, I\'m leaving</string>
+    <string name="stay_here">Stay here</string>
+    <string name="video">Video</string>
+    <string name="gif">GIF</string>
+    <string name="exporting_video">Exporting a video…</string>
+    <string name="exporting_gif">Exporting a GIF…</string>
+    <string name="video_saved_to_gallery">Video saved to gallery</string>
+    <string name="gif_saved_to_gallery">GIF saved to gallery</string>
+    <string name="exporting_gif_please_wait">Exporting a GIF, please wait.</string>
+
+    <string name="exporting_video_failed">Failed to generate video, please try again later</string>
+    <string name="exporting_gif_failed">Failed to generate GIF, please try again later</string>
+</resources>

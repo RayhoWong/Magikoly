@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.glt.magikoly.ad.view.AdStyleSecond xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+    <FrameLayout
+        android:id="@+id/ad_banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ad_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ad_choice_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ad_icon_choice"
+        app:layout_constraintTop_toTopOf="@+id/ad_banner"
+        app:layout_constraintRight_toRightOf="@+id/ad_banner" />
+
+    <Button
+        android:id="@+id/ad_button"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/ad_button_selector"
+        android:fontFamily="sans-serif"
+        android:text="@string/ad_button_text"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ad_title" />
+
+    <com.glt.magikoly.view.RoundedImageView
+        android:id="@+id/ad_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/app_icon"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/ad_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ad_banner"
+        app:riv_corner_radius="8dp" />
+
+
+    <TextView
+        android:id="@+id/ad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="2"
+        android:text="@string/ad_title"
+        android:textColor="#FF353535"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/ad_button"
+        app:layout_constraintLeft_toRightOf="@+id/ad_icon"
+        app:layout_constraintTop_toBottomOf="@+id/ad_banner"
+        app:layout_goneMarginLeft="10dp"
+        app:layout_goneMarginStart="10dp" />
+
+
+</com.glt.magikoly.ad.view.AdStyleSecond>

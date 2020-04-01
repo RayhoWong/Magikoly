@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.glt.magikoly.function.main.faceimages.LoadingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/face_images_loading_bg"
+    >
+    <ImageView
+        android:id="@+id/img_progressbar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:src="@drawable/progressbar"
+        />
+</com.glt.magikoly.function.main.faceimages.LoadingView>
+

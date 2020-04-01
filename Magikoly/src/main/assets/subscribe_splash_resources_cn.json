@@ -1,0 +1,147 @@
+{
+  "datas": [
+    {
+      "moduleId": 1,
+      "icon_name": "每月：$27.99",
+      "icon_desc": "三天免费，随时取消。",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 2,
+      "icon_name": "三天免费",
+      "icon_desc": "接下来每年续订，每月仅需$8.07/月，支持随时取消。",
+      "banner": "",
+      "title": "给您的自拍施加魔法",
+      "name": "",
+      "description": "",
+      "more_name": "支持随时取消，自动续订$96.88/年或$27.99/月。免费试用代表您已接受我们的#隐私政策#，^条款与协议^。",
+      "button_name": "免费试用"
+    },
+    {
+      "moduleId": 6,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "以下高级功能都可以<b>免费试用</b>，您可以<b>随时取消</b>。",
+      "name": "真的要退出免费试用吗？",
+      "description": "惊人的\n变老相机#神奇的\n性别互换#无限的\n种族分析#最好的\n相片编辑器#先进的\n科技#精准的\n报告",
+      "more_name": "支持随时取消。接下来每年只需＄96.88续订。",
+      "button_name": "免费试用"
+    },
+    {
+      "moduleId": 3,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "遇见未来的你",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "检查我的报告"
+    },
+    {
+      "moduleId": 4,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "发现另一个你",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "检查我的报告"
+    },
+    {
+      "moduleId": 5,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "检测你的神秘种族",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "检查我的报告"
+    },
+    {
+      "moduleId": 7,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "看看你们可爱的宝宝是不是更像你",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "检查我的报告"
+    },
+    {
+      "moduleId": 9,
+      "icon_name": "三天免费",
+      "icon_desc": "接下来每年续订，每月仅需$8.07/月，支持随时取消。",
+      "banner": "",
+      "title": " 三天内取消不会收费！",
+      "name": "解锁您的报告",
+      "description": "老化您的脸部\n合成未来的宝宝\n神奇的性别互换\n精准的种族分析\n美颜您的自拍",
+      "more_name": "支持随时取消，自动续订$96.88/年或$27.99/月。免费试用代表您已接受我们的#隐私政策#，^条款与协议^。",
+      "button_name": "免费试用"
+    },
+    {
+      "moduleId": 8,
+      "icon_name": "每月：$27.99",
+      "icon_desc": "三天免费，随时取消。",
+      "banner": "",
+      "title": "",
+      "name": "",
+      "description": "",
+      "more_name": "",
+      "button_name": ""
+    },
+    {
+      "moduleId": 10,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "即刻去除广告&解锁所有功能！",
+      "name": "升级去广告",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "开始三天免费试用"
+    },
+    {
+      "moduleId": 11,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "重现你可爱的婴儿脸",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "检查我的报告"
+    },
+    {
+      "moduleId": 13,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "将生活照转换成惊艳的艺术画作！",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "获取我的艺术画作"
+    },
+    {
+      "moduleId": 15,
+      "icon_name": "",
+      "icon_desc": "",
+      "banner": "",
+      "title": "探索你内在的灵魂动物",
+      "name": "Magikoly",
+      "description": "",
+      "more_name": "支持随时取消，接下来每年只需＄96.88续订。",
+      "button_name": "检查我的报告"
+    }
+  ]
+}

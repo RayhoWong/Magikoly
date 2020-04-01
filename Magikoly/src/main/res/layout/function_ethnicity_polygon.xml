@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.glt.magikoly.function.ethnicity.polygon.PolygonChartView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ethnicity_chart"
+        app:radius="92dp"
+        android:layout_centerHorizontal="true"
+        app:lineSpace="17dp"
+        app:numLayers="6"
+        app:lineColor="@color/polygon_lineColor"
+        app:selectedAreaColorFrom="@color/polygon_selectedAreaColorFrom"
+        app:selectedAreaColorTo="@color/polygon_selectedAreaColorTo"
+        app:selectedPointColor="@color/polygon_valueTextColor"
+        app:netBackground="@color/polygon_netBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>

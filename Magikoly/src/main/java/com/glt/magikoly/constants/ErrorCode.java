@@ -1,0 +1,38 @@
+package com.glt.magikoly.constants;
+
+
+/**
+ * 包名集合
+ *
+ * @author yangguanxiang
+ */
+public interface ErrorCode {
+    int AMAZON_UPLOAD_FAIL_FILE_NO_EXISTS = 1;
+    int AMAZON_UPLOAD_FAIL_AMAZON = 2;
+    int AMAZON_UPLOAD_FAIL_NETWORK_ERROR = 3;
+
+    int NETWORK_ERROR = 10;
+    int FACE_DETECT_ERROR = 11;
+    int BAD_FACE = 12;
+    int THIRD_PART_PROVIDER_UNAVAILABLE = 13; //errorCode =1
+    int TEMPLATE_NOT_FOUND = 14; //errorCode =2
+    int IMAGE_LOAD_FAIL = 15;//errorCode =3
+    int FACE_NOT_FOUND = 16;
+    int IMAGE_NOT_FOUND = 17;
+    int FATHER_GENDER_FAIL = 18;
+    int MOTHER_GENDER_FAIL = 19;
+
+    //童颜接口错误
+    int VISION_UNKNOWN = 4000;
+    int VISION_FACE_NOT_FOUND = 4001;
+    int VISION_BASE_64_DECODE_ERROR = 4002;
+    int VISION_REQUEST_FACE_POINTS_ERROR = 4003;
+    int VISION_SERVER_BUSY = 4004;
+    int VISION_FACE_POINTS_OUTBOUNDS = 4005;
+
+    String FACE_NOT_FOUND_STR = "FACE_NOT_FOUND";
+    String BAD_FACE_STR = "BAD_FACE";
+    String TEMPLATE_NOT_FOUND_STR = "TEMPLATE_NOT_FOUND";
+    String THIRD_PART_PROVIDER_UNAVAILABLE_STR = "THIRD_PART_PROVIDER_UNAVAILABLE";
+    String NETWORK_ERROR_STR = "NETWORK_ERROR";
+}

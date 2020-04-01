@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="204dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/feedbacktoast_mask">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/feedback_toast_tip_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:paddingEnd="30dp"
+        android:paddingRight="30dp">
+
+        <ImageView
+            android:id="@+id/img_feedback_toast_image"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/feedback_toast_ok" />
+
+        <TextView
+            android:id="@+id/tv_feedback_toast_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#20107c"
+            android:gravity="center"
+            android:text="@string/feedback_submit_success" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

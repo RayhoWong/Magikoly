@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Magikoly</string>
+    <string name="splash_resources_name">subscribe_splash_resources_ar.json</string>
+
+    <string name="takephoto_desc_ethnicity">التقط صورة وتأكد من أن وجهك في منتصف الإطار</string>
+    <string name="subscribe_close_bottom_long_text">لا \n أريد هذا العرض ولا \n أريد أن أجرب مصراع الشيخوخة أو متنبئ الإنجاب، إلخ.</string>
+    <string name="subscribe_close_bottom_text">لا، شكرًا</string><!--种族列表-->
+    <string name="function_ethnicity_white">أبيض</string>
+    <string name="function_ethnicity_black">أسود</string>
+    <string name="function_ethnicity_other">آخر</string>
+    <string name="function_ethnicity_latino">لاتيني</string>
+    <string name="function_ethnicity_spanish">شرق اوسطي</string>
+    <string name="function_ethnicity_asian">آسيوي</string>
+
+    <string name="save_to_gallery">حفظ في معرض الصور</string>
+    <string name="ok">حسنا</string><!--评分弹框-->
+    <string name="function_rate_text">ما رأيك في ماجيكولي؟</string>
+    <string name="rate_five_star_toast_text">تقييم 5 نجوم يشجعنا على أداء أفضل XD.</string>
+    <string name="dialog_rate_ask_title">آسف…</string>
+    <string name="dialog_rate_ask_content">هل تمانع في تزويدنا بتعليقاتك؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="give_feedback">إعطاء ملاحظات</string>
+
+
+    <string name="unclear_face">وجه غير واضح</string>
+    <string name="face_detect_fail">فشل في التعرف على الوجه</string>
+    <string name="face_detect_fail_tips">يرجى التقاط أو اختيار صورة أخرى.</string>
+    <string name="network_error">خطأ في الشبكة</string>
+    <string name="network_error_tips">يرجى التحقق من حالة الشبكة والمحاولة مرة أخرى.</string>
+    <string name="unknown_error">خطأ غير معروف.</string>
+    <string name="unknown_error_tips">عذرا، حدث خطأ غير معروف، يرجى المحاولة مرة أخرى.</string>
+    <string name="identification_error">خطأ في تحديد الهوية</string>
+    <string name="error_code_1">خطا بالكود: 01</string>
+    <string name="error_code_2">خطا بالكود: 02</string>
+    <string name="error_code_3">خطا بالكود: 03</string>
+    <string name="error_code_4">خطا بالكود: 04</string>
+
+
+    <string name="get_my_result">تحقق من نتائجي</string>
+
+
+    <string name="save_report_success">تم حفظ الصورة في المعرض</string>
+    <string name="save_report_failed">أخفق حفظ الصورة، يرجى إعادة المحاولة لاحقًا</string>
+
+
+    <string name="setting_item_upgrade">ترقية إلى النسخة الكاملة</string>
+    <string name="setting_item_privacy_policy">سياسة الخصوصية</string>
+    <string name="setting_item_service_agreement">اتفاقية خدمات</string>
+    <string name="setting_item_feedback">ردود الفعل</string>
+    <string name="feedback_detail_hint">يرجى وصف المشكلة بالتفصيل :)</string>
+    <string name="feedback_email_hint">عنوان البريد الإلكتروني</string>
+    <string name="feedback_submit">ارسال</string>
+    <string name="feedback_email_error">يالا الأسف بريد إلكتروني صالح مطلوب.</string>
+    <string name="feedback_email_detail_empty_error">أخبرنا بمشكلتك التي يمكننا حلها بشكل أفضل.</string>
+    <string name="feedback_submit_success">ملاحظاتك مهمة جدا بالنسبة لنا.  سنتحقق من ذلك في اسرع وقت ممكن</string>
+    <string name="feedback_submit_fail">يالا الأسف فشل الاتصال. يرجى المحاولة مرة أخرى لاحقًا.</string>
+    <string name="feedback_uploading">جاري التحميل</string>
+    <string name="permission_tip_camera">نحتاج إلى إذن IMAGE_CAPTURE لالتقاط الصور لتحليلها.</string>
+    <string name="permission_tip_camera_never">نحتاج إلى إذن IMAGE_CAPTURE لالتقاط الصور. يمكنك فتحه في إعدادات النظام.</string>
+    <string name="permission_tip_write">نحتاج إلى إذن WRITE_EXTERNAL_STORAGE لحفظ الصورة في الألبوم.</string>
+    <string name="permission_tip_write_never">نحتاج إلى إذن WRITE_EXTERNAL_STORAGE لتصفية صور وجهك وعرضها هنا. يمكنك فتحه في إعدادات النظام.</string>
+    <string name="permission_tip_write_save_never">نحتاج إلى إذن WRITE_EXTERNAL_STORAGE لحفظ الصورة في المعرض. يمكنك فتحه في إعدادات النظام.</string>
+    <string name="permission_tip_write_never_album">نحتاج إلى إذن WRITE_EXTERNAL_STORAGE لإظهار صورك المحلية هنا. يمكنك فتحه في إعدادات النظام. </string>
+
+    <string name="subscribe_gp_connection_error">تعذر الاتصال بـ Google Play، يرجى إعادة المحاولة لاحقا.</string>
+    <string name="subscribe_network_error">الشبكة غير متوفرة، يرجى إعادة المحاولة بعد الاتصال.</string>
+
+
+    <string name="faces">وجوه</string>
+    <string name="album">ألبوم</string>
+    <string name="discovery">مشاهير</string>
+    <string name="aging_camera">كاميرا الشيخوخة</string>
+    <string name="baby_prediction">توليف الطفل</string>
+    <string name="gender_swap">تغيير النوع</string>
+    <string name="ethnicity_analy">تحليل عرقي</string>
+    <string name="loading">جاري التحميل</string>
+
+    <string name="string_photos">صور</string>
+
+    <string name="face_album_choose_image">اختر صورة</string>
+    <string name="takephoto_local">محلي</string>
+    <string name="takephoto_explore">يكتشف</string>
+    <string name="multi_face_desc">وجوه متعددة معترف بها \n، يرجى اختيار واحد</string>
+    <string name="album_detail_title">كافة الصور</string>
+    <string name="take_photo">التقط صورة فوتوغرافية</string>
+    <string name="no_face_photo">لا توجد صور مع وجه، \nالتقط صورة لك الآن</string>
+    <string name="album_take_photo">التقط صورة لك الآن</string>
+
+
+    <string name="not_read_permission">لا تقرأ إذن</string>
+
+
+    <string name="no_permission_album">نحتاج إلى إذن WRITE_EXTERNAL_STORAGE لإظهار صورك المحلية هنا</string>
+    <string name="text_retry">اعد المحاولة</string>
+
+
+    <string name="no_photos">لا توجد صور في هاتفك</string>
+
+    <string name="rate_before_google_play">مرحى!</string>
+    <string name="rate_before_google_play_2">شكرا لنجومك!</string>
+    <string name="rate_before_google_play_3">يرجى تقيمنا في Google Play.</string>
+
+    <string name="dialog_watch_video_title">وصول مجاني</string>
+    <string name="dialog_watch_video_desc">شاهد فيديو إعلاني للحصول على وصول مجاني 1 مرة. تشغيل الفيديو الآن؟</string>
+    <string name="image_not_found_error">خطأ 404</string>
+    <string name="image_not_found_error_tips">الصورة غير موجودة</string>
+    <string name="searching_for_faces">البحث عن الوجوه</string>
+    <string name="search_complete">اكتمل البحث</string>
+    <string name="poster_app_desc">استكشف واستمتع</string>
+    <string name="poster_result_title_gender_male">النسخة الذكورية مني</string>
+    <string name="poster_result_desc_gender_male">استكشف نسخة النوع المعاكس منك. بحث Magikoly في Google Play</string>
+    <string name="poster_result_title_gender_female">النسخة النسائية مني</string>
+    <string name="poster_result_desc_gender_female">استكشف نسخة النوع المعاكس منك. بحث Magikoly في Google Play</string>
+    <string name="poster_result_title_aging">وجهي بعد 50 سنة</string>
+    <string name="poster_result_desc_aging">استكشف مظهرك في المستقبل وأكثر من ذلك. بحث Magikoly في Google Play</string>
+    <string name="poster_result_title_ethnicity">العرق الراقد في جيناتي</string>
+    <string name="poster_result_desc_ethnicity">استكشف الأسرار داخل دمك. بحث Magikoly في Google Play</string>
+    <string name="poster_gp_desc">بحث%1$s في Google play</string>
+    <string name="layout_purchase_trial_count_text">10 فرص تحليل مجانية كل يوم، يرجى الترقية إلى الإصدار الكامل أو المحاولة مرة أخرى غدًا ^ ^</string>
+    <string name="layout_purchase_watch_video">شاهد الفيديو</string>
+    <string name="layout_purchase_one_time_access">للحصول على الوصول 1 مرة</string>
+    <string name="layout_purchase_upgrade">ترقية لكي تفتح</string>
+    <string name="layout_purchase_upgrade_full_version">يرجى الترقية إلى الإصدار الكامل والاستمتاع بالميزات المتقدمة.</string>
+    <string name="discovery_online_result">النتائج على الانترنت</string>
+    <string name="discovery_poplur_search">عمليات بحث شائعة</string>
+    <string name="discovery_search_hint">أدخل اسمًا وابحث عبر الإنترنت</string>
+    <string name="confirm_exit">لم يتم حفظ الصورة بعد، هل تريد الخروج دون حفظ التغييرات؟ </string>
+    <string name="permission_tip_write_deny">نحتاج إلى إذن WRITE_EXTERNAL_STORAGE لتصفية صور وجهك وعرضها هنا</string>
+    <string name="no_photo_btn_album">التقط صورة لك الآن</string>
+
+    <string name="load_more">اسحب لأعلى لتحميل أكثر</string>
+    <string name="load_error">:( أوه، عزيزي. خطأ في التحميل ...</string>
+    <string name="load_finish">لا مزيد من البيانات</string>
+    <string name="power_by_bing">مدعوم من Bing</string>
+
+    <string name="camera_error_tip">حدث خطأ أثناء الاتصال بالكاميرا</string>
+    <string name="feedback_email_empty">عفوا! تذكر أن تترك بريدك الإلكتروني حتى نتمكن من متابعة المشكلة.</string>
+    <string name="error">خطأ</string>
+
+    <string name="effects">تأثيرات</string>
+    <string name="beauty">الجمال</string>
+    <string name="analysis">تحليل</string>
+    <string name="fragment_baby_title_female">ابنتنا</string>
+    <string name="fragment_baby_title_male">ابننا</string>
+    <string name="fragment_baby_name_dad">أبي</string>
+    <string name="fragment_baby_name_mom">أمي</string>
+    <string name="poster_baby_title">طفلنا الجميل!</string>
+    <string name="poster_baby_text_bottom1">توقع طفلك في المستقبل</string>
+    <string name="poster_gp_desc_baby">بحث <font color="#ffe507">Magikoly</font> في Google Play</string>
+    <string name="baby_father_gender_fail">ليست صورة ذكر</string>
+    <string name="baby_father_gender_fail_desc">يرجى التقاط أو تحميل صورة أخرى وتأكد من وجود\ رجل في الصورة.</string>
+    <string name="baby_mother_gender_fail">ليست صورة أنثى</string>
+    <string name="baby_mother_gender_fail_desc">يرجى التقاط أو تحميل صورة أخرى وتأكد من وجود امرأة في الصورة.</string>
+
+    <string name="loading_for_aging_tip">شيخوخة وجهك</string>
+    <string name="loading_for_gender_tip">تبديل نوعك</string>
+    <string name="loading_for_ethnicity_tip">تحليل عرقك</string>
+    <string name="loading_for_baby_tip">تكوين طفلك</string>
+    <string name="inner_pick_take_photo">التقط صورة</string>
+    <string name="inner_pick_album">تحميل من الألبوم</string>
+    <string name="inner_pick_search_online">ابحث عن صور المشاهير على الإنترنت</string>
+    <string name="inner_pick_title">التقط أو اختر صورة لشريكك</string>
+    <string name="loading_for_beauty_tip">تجميل وجهك</string>
+    <string name="camera_launching">إطلاق الكاميرا ...</string>
+    <string name="subscribe_back_toast">اضغط على زر عودة مجددا للخروج من التطبيق</string>
+    <string name="discovery_guide_popup_text">ابحث عن صور \nالنجوم المفضلة هنا ~</string>
+    <string name="premium">مميز</string>
+
+    <string name="ad_app_desc">اعرف المزيد عن نفسك</string>
+    <string name="ad_button_text">تنزيل مجاني</string>
+    <string name="ad_title">كلاش رويال - تطبيق على Google Play</string>
+    <string name="skip">تخطى</string>
+    <string name="rate_five_star_title_v2">وصول مجاني</string>
+    <string name="rate_five_star_content_v2"><b>اترك لنا تقييم</b> في Play Store يمكن أن تحصل على <b>وصول مجاني ل 1 يوم</b></string>
+    <string name="rate_five_star_btn_v2">اذهب لتقييمنا</string>
+    <string name="rate_five_star_title">افتح تقريرك مجانا!</string>
+    <string name="rate_five_star_content">امنح تصنيف 5 نجوم في Google Play \ n لتحصل على جميع التقارير مجانا ل 1يوم!</string>
+
+    <string name="rate_five_star_btn">تقييم 5 نجوم!</string>
+    <string name="rate_five_star_unlock_up">تقييم 5 نجوم!</string>
+    <string name="rate_five_star_unlock_up_v2">اترك تقييم</string>
+    <string name="rate_five_star_unlock_down_v2">لحصل على وصول مجاني ل1 يوم</string>
+    <string name="rate_five_star_unlock_down">احصل على 1 يوم مجانا</string>
+    <string name="rate_free_toast_text">باقي 1 خطوة للحصول على VIP مجاني!</string>
+    <string name="now">الآن</string>
+    <string name="latest_year">بعد 50 عام</string>
+    <string name="loading_for_child_tip">اجعل وجهك يشبه الطفل ...</string>
+    <string name="child_mirror">وجه الطفل</string>
+    <string name="big_eyes">عيون كبيرة</string>
+    <string name="face_shape">الوجه النحيف</string>
+    <string name="whitening">اشراق</string>
+    <string name="smoother">بشرة ناعمة</string>
+    <string name="loading_for_art_filter_tip">تطبيق منقي ...</string>
+    <string name="loading_seconds">(يستغرق حوالي 2-3 ثواني)</string>
+    <string name="purchase_backhome_title">التقاط / تحميل صورة</string>
+    <string name="purchase_backhome_subtitle">انقر للانتقال للصفحة الرئيسية</string>
+    <string name="filter">منقي</string>
+    <string name="art_filter">منقي هزلي</string>
+    <string name="five_more_free_accesses">5 مرات دخول مجاني إضافية</string>
+    <string name="five_time_free_chance_content">فرصة رائعة! شاهد فيديو إعلاني واحصل على 5 مرات دخول مجاني إضافية لمزايا العضوية المميزة. تشغيل فيديو الآن؟</string>
+    <string name="quit">تراجع</string>
+    <string name="got_five_time_free_access">لديك بطاقه دخول صالحه للاستخدام خمس مرات! </string>
+    <string name="main_banner_title_1">مذهلة مصراع\n الشيخوخة</string>
+    <string name="main_banner_title_2">تأثير\n الكرتون رائع</string>
+    <string name="main_banner_title_3">للاهتمام \n تصفية الأطفال</string>
+    <string name="main_banner_title_4">الكمال \n كاميرا الجمال</string>
+    <string name="main_banner_title_5">تماما \n أي إعلانات</string>
+    <string name="main_banner_title_6">مذهل \n الفن الهزلي</string>
+    <string name="main_banner_title_7">رسم سحري \n 1 ثانية</string>
+    <string name="main_banner_title_8">اللوحة الأنيقة الرائعة</string>
+    <string name="main_banner_title_9">أكثر \n تأثير بارد</string>
+    <string name="permission_tip_title_upload_img"> كل صورة تلتقطها أو تختارها للتحليل يجب تحميلها على السحابة للتحليل والمعالجة. سيتم حذفها مباشرة بعد المعالجة.</string>
+    <string name="yes_leaving">نعم ، سأغادر. </string>
+    <string name="stay_here">ابق هنا. </string>
+    <string name="loading_for_animal_tip">تحول إلى حيوان ...</string>
+    <string name="animal">السمة الحيوانية</string>
+    <string name="video">صورة مرئية - فيديو</string>
+    <string name="gif">جيف - صوره متحركه. </string>
+    <string name="exporting_video">تصدير مقطع فيديو ...</string>
+    <string name="exporting_gif">تصدير ملف GIF ...</string>
+    <string name="video_saved_to_gallery">تم حفظ الفيديو في المعرض</string>
+    <string name="gif_saved_to_gallery">تم حفظ GIF في المعرض</string>
+    <string name="exporting_gif_please_wait">تصدير الصورة المتحركة GIF ، يرجى الانتظار.</string>
+    <string name="exporting_video_failed">فشل إنشاء الفيديو، يرجى المحاولة مرة أخرى لاحقا</string>
+    <string name="exporting_gif_failed">فشل إنشاء الصورة بصيغة GIF، يرجى المحاولة مرة أخرى لاحقا</string>
+</resources>
